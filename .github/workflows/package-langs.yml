@@ -1,0 +1,41 @@
+name: ZIP translation files
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number'
+        required: true
+
+jobs:
+  package-games:
+    strategy:
+      matrix:
+        directory: [duriduri, ae]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install zip utility
+      run: sudo apt-get install zip -y
+
+    - name: Create ZIP file from directory
+      run: for i in ${{ matrix.directory }}/xml/*; do   zip -r ${{ matrix.directory }}-"$(basename "$i")-${{ github.event.inputs.version }}.zip" "$i"; done
+
+    - name: English release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "${{ matrix.directory }}-en-US-${{ github.event.inputs.version }}.zip"
+        tag: langs-${{ github.event.inputs.version }}
+        allowUpdates: true
+
+    - name: Korean release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "${{ matrix.directory }}-ko-KR-${{ github.event.inputs.version }}.zip"
+        tag: langs-${{ github.event.inputs.version }}
+        allowUpdates: true
