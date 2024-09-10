@@ -1,0 +1,32 @@
+name: ZIP Directory Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number'
+        required: true
+
+jobs:
+  zip_directory:
+    strategy:
+      matrix:
+        directory: [duriduri, ae]
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install zip utility
+      run: sudo apt-get install zip -y
+
+    - name: Create ZIP file from directory
+      run: zip -r ${{ matrix.directory }}-${{ github.event.inputs.version }}.zip ${{ matrix.directory }}
+
+    - name: Upload ZIP file as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.directory }}-${{ github.event.inputs.version }}
+        path: ${{ matrix.directory }}-${{ github.event.inputs.version }}.zip
+        overwrite: true
