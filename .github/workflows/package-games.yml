@@ -38,3 +38,4 @@ jobs:
       with:
         artifacts: "${{ matrix.directory }}-${{ github.event.inputs.version }}.zip"
         tag: games-${{ github.event.inputs.version }}
+        allowUpdates: true
