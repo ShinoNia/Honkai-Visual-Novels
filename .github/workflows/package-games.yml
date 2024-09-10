@@ -8,11 +8,13 @@ on:
         required: true
 
 jobs:
-  zip_directory:
+  package-games:
     strategy:
       matrix:
         directory: [duriduri, ae]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository
@@ -30,3 +32,9 @@ jobs:
         name: ${{ matrix.directory }}-${{ github.event.inputs.version }}
         path: ${{ matrix.directory }}-${{ github.event.inputs.version }}.zip
         overwrite: true
+
+    - name: Create release from artifacts
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "${{ matrix.directory }}-${{ github.event.inputs.version }}.zip"
+        tag: games-${{ github.event.inputs.version }}
