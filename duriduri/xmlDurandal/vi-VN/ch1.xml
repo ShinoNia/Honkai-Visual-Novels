@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="dashboard.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text>5 giờ sáng.</text>
+            <text>Ở trong thiết bị rộng hơn ghế ngồi của xe tải, một thiếu nữ được thắt dây bật cỗ máy lên.</text>
+            <text>*Bên trên nút nguồn là một cái đèn. Đồng hồ đo khó hiểu được bao quanh bởi ký tự Cyrillic khó đọc.</text>
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text>И...Н...Т...Е...Р...К...О...С...М...О...С...</text>
+            <text>ИНТЕРКОСМОС (INTERKOSMOS)</text>
+            <!-- RENAME: Approximately half a century ago, the organization 「Destiny」 helped humanity send several astronauts of many different nationalities to the Moon. -->
+            <text>Khoảng tầm nửa thế kỷ trước, 「Schicksal」đã gửi phi hành gia từ nhiều quốc gia lên mặt trăng.</text>
+            <text>Thiết bị này là những gì sót lại của thời hoàng kim đó.</text>
+            <speak chara="_mechanicalSound">Khởi động kết thúc</speak>
+            <speak chara="_mechanicalSound">Mức mô phỏng hiện tại, 0.2.</speak>
+            <speak chara="_mechanicalSound">Bắt đầu vận hành.</speak>
+            <text>Mùi của dầu, tiếng của máy móc và chuyển động của cô gái cho thấy hệ thống điều áp không khí đã bắt đầu điều chỉnh trọng lực</text>
+            <text>Giờ thì mắt cá chân và đầu gối của cô chỉ nâng đỡ 20% trọng lượng cơ thể...</text>
+            <text>Việc này giúp cô gái chạy mười cây liên tục mà không làm tổn hại các khớp.</text>
+            <text>Bình minh đang lên từ xa.</text>
+            <text>Valkyrie Durandal lại bắt đầu một ngày tập luyện.</text>
+            <goto goto="10" clockwise="1"/>
+        </scene>
+        <scene id="10" background="gymnasium.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">Nhịp tim trung bình là 125... Vậy là hoàn hảo.</speak>
+            <show chara="biankaSportSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidSmileClose" position="left"/>
+            <speak chara="_Rita">Nếu vậy thì, Bianka đại nhân, ngài có muốn dùng điểm tâm không?</speak>
+            <show chara="ritaMaidSquintClose" position="left"/>
+            <speak chara="_Rita" remark="next">Món tráng miệng hôm nay là Mille-feuille phố mai.</speak>
+            <remark post="U2FsdGVkX18du3l7nMcHK1ORJgIy">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">法式千层酥（mille-feuille）是由三层酥皮夹两层奶油或果酱制成的一类蛋糕，其发明灵感可能源自那不勒斯的披萨。</p>
+                <p class="article-text">由于“Napolitain”（“那不勒斯”的形容词形式）与"Napoleon"（“拿破仑”）的拼写近似，在英文中此甜点遂被戏称为"Napoleon"；中文亦随之译作“拿破仑蛋糕”。</p>
+                <p class="article-text">p.s. 由于1812年俄法战争的关系，“拿破仑”在俄罗斯是最受欢迎的蛋糕款式之一。</p>
+            </remark>
+            <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSurprisedClose" position="right"/>
+            <speak chara="_Durandal">Hm? Rita? hôm nay em sao vậy, món đó có hơi nhiều calo——</speak>
+            <speak chara="_Durandal">——Khoan.</speak>
+            <speak chara="_Durandal">Em vừa gọi ta là... 「Bianka」?</speak>
+            <show chara="biankaSportSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidNaughtyClose" position="left"/>
+            <speak chara="_Rita">Hehehe. Chính xác.</speak>
+            <show chara="ritaMaidSquintClose" position="left"/>
+            <speak chara="_Rita">*Hôm nay là một ngày đặc biệt mà nên được ăn mừng bằng một cái bánh.</speak>
+            <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSurprisedClose" position="right"/>
+            <speak chara="_Durandal">Hôm nay? 28 tháng Hai... không, giờ đã là ngày 29?</speak>
+            <speak chara="_Durandal">Ah.</speak>
+            <show chara="biankaSportHesitateClose" position="right"/>
+            <speak chara="_Durandal">.....</speak>
+            <speak chara="_Durandal">Đã qua 4 năm rồi.</speak>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">Từ ngày ta gặp em... và ngày ta gặp bọn họ.</speak>
+            <show chara="biankaSportHesitateClose" position="right"/>
+            <speak chara="_Durandal">...Ta thậm chí đã quen với cái tên 「Durandal」.</speak>
+            <speak chara="_Durandal">.....</speak>
+            <show chara="biankaSportHesitateClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidNormalClose" position="left"/>
+            <!-- RENAME: The Bishop will put his plan in motion at the right moment. -->
+            <speak chara="_Rita">Giáo chủ sẽ thực hiện kế hoạch vào đúng thời điểm.</speak>
+            <speak chara="_Rita">Ngày mà ta có thể thực hiện lời hứa sẽ đến.</speak>
+            <show chara="ritaMaidNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">... Phải.</speak>
+            <speak chara="_Durandal">Giữ lời hứa đó là một việc rất quan trọng đối với cô gái tên Bianka.</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="libraryDay.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <!-- RENAME: A now yellow colored piece of paper sits quietly in the archives of Destiny Organization. -->
+            <text>*Một mảnh giấy lặng lẽ nằm trong tàng thư của Schicksal.</text>
+            <text>Trang đầu của tài liệu mật này viết——</text>
+            <text>Nhiệm Vụ Tuyệt Mật："LONELY PANTHALASSA" </text>
+            <text>Thời gian: 29 tháng Hai năm 2012</text>
+            <text>Địa điểm: ██████████ - Biển Lượng Tử </text>
+            <text>Mục tiêu: ██████████</text>
+            <!-- RENAME: Members: Bianka "Durandal" Atagina (12), Rita Rossweisse (16) -->
+            <text>Thành Viên: Bianka "Durandal" Ataegina (12), Rita Rossweisse (16)</text>
+            <text>*Trạng thái: Đã đóng</text>
+            <text>Thông qua bởi: Otto Apocalypse</text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="black">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <text>Và từ giờ...</text>
+            <text>Câu chuyện sẽ quay về quá khứ 1461 ngày trước ngày 29 tháng Hai năm 2016——</text>
+            <!-- RENAME: To the moment when Bianka Atagina and Rita Rossweisse arrived at the 「Quantum Sea」. -->
+            <text>Cho tới thời điểm Bianka Ataegina và Rita Rossweisse đến 「Biển Lượng Tử」.</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="fishingVillage.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_BiankaNoName">Trời! Đám người tị nạn này là một lũ hèn!</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">Dù từ thời đại nào thì họ vẫn như thế!</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_BiankaNoName">Chị có tin được không? Họ chọn sống nghèo đói ở đây thay vì giúp chúng ta ra khơi!?</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">Thật là hèn nhát hết mức!?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">Công bằng mà nói, trước khi trôi dạt đến đây, họ cũng không có kinh nghiệm đi biển...</speak>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_RitaNoName">...Một lẽ tự nhiên, họ sẽ sợ hãi trước thủy quái 「Leviathan」.</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">Cái gì—— Ý chị là họ không bao giờ rời khỏi hòn đảo này cũng không sao? Chỉ mò cua bắt ốc mà sống cũng không sao?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">There is a saying that goes 「The boat should be near the coast」.</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_BiankaNoName">...Hả?</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">*Bianka đại nhân, một 「người bình thường」sẽ suy nghĩ thực tế và tiêu cực. Trước khi nghĩ đến phần thưởng từ việc thành công, họ sẽ nhìn vào hậu quả của thất bại.</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">Nếu một người như thế được đặt ra giữa biển, một thế giới hoàn toàn xa lạ—— Họ sẽ không thể chiến thắng nỗi sợ hãi của chính mình.</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">Cái tên 「Leviathan」...</speak>
+            <speak chara="_RitaNoName">Làm tiềm thức họ tự cho rằng ra khơi là trở thành kẻ thù của tự nhiên——</speak>
+            <speak chara="_RitaNoName">——Nói một cách khác, là tự sát.</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">*Do đó, từ điểm nhìn của họ, chúng ta là những nhà thám hiểm nông nổi.</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">Hm. Đồng cảm với bọn yếu đuối sao?</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Với cả——</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——Rita, tôi đã bảo chị bao nhiêu lần rồi?</speak>
+            <speak chara="_Bianka">Đừng gọi tôi là  「đại nhân」 nữa... Nghe kì lắm.</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Tôi là một Valkyrie chỉ mới gặp chị trước khi nhiệm vụ bắt đầu, và chị chỉ trở thành phụ tá của tôi vì sự ngoan cố của một ai đó.</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <!-- RENAME: ——Please stop talking to me the same way you talk to the Bishop! -->
+            <speak chara="_Bianka">——Làm ơn đừng gọi tôi như cách chị gọi Giáo chủ!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">Đã hiểu, thưa Bianka đại nhân.</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">Thứ lỗi.</speak>
+            <speak chara="_MiguelNoName">Hai người... có vẻ là người mới ở đây?</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">... Phải.</speak>
+            <speak chara="_Bianka">Bọn cháu đã ở đây được 38 phút và 25 giây—— Không, 26 giây.</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">*Nhưng, khác với tất cả mọi người, bọn cháu đến đây để "khám phá" chứ không phải để "trốn thoát".</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Needless to say, until our mission is completed—— We plan to involve ourselves in all your joys and sorrows.</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <!-- RENAME: I am Bianka Atagina, and this my adjutant, Rita Rossweisse—— How can we help you? -->
+            <speak chara="_Bianka">Cháu là Bianka Ataegina, còn đây là phụ tá của cháu, Rita Rossweisse—— Ông cần giúp gì?</speak>
+            <show chara="biankaConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">Hahahaha!</speak>
+            <speak chara="_MiguelNoName">Ahahahaha!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">...Có gì đáng cười?</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">*Xin lỗi! Chỉ là người già bọn tôi thích cười. Đừng để ý, nhà thám hiểm nhỏ.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_MiguelNoName">Dẫu sao thì——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">Nghe nói là hai người đang tập trung lực lượng để đánh bại 「Leviathan」 và mở đường ra biển.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Đúng vậy.</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Dù không có một ai muốn chiến đâu cũng chúng cháu.</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">Haha... Dễ hiểu. Dù sao thì không ai trong số họ là chiến binh——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_MiguelNoName">——Không thể so sánh với những anh hùng đã tận mắt nhìn thấy địa ngục.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">Làm sao ông biết...</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">Hahaha, ở tuổi của tôi thì chỉ cần nhìn vào mắt người khác là có thể thấy!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">Tôi là Miguel. Để tôi đi thẳng vào vấn đề——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Những chiến binh dũng cảm... Hai cô có muốn tham gia vào buổi đi săn vĩ đại với thủy thủ già mà thậm chí không thể cử động cánh tay trái này không?</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">Hả?</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">Ý ông là...</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Tóm lại là tôi sẽ cung cấp thuyền và lái nó.</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——Dù tất cả những gì tôi có là một cái thuyền sậy! Hahaha!</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="beachIslandNoName.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">O sea, my old friend!</speak>
+            <speak chara="_Miguel">I thank you for not breaking this tattered ship so that we may sail again today!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">...What's up with you?</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahaha... Nhìn này, cái thuyền này chưa được sử dụng 3 năm nay nhưng vẫn tốt như mới !</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">「Leviathan」 đã nhốt mọi người trên đảo lâu đến vậy à?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Hmm, có thể là còn lâu hơn. Có vẻ nó làm một cái tổ gần bờ biển và không chịu rời đi.</speak>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">Dù năm đầu tiên sau khi đến đây tôi vẫn bắt được kha khá cá.</speak>
+            <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">... Ông không thấy ai khác ngoài khơi khi đi đánh cá à?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Không một ai. Thử nhìn mà xem.</speak>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">Gần đây không có đất liền—— Kể cả Columbus cũng không dám ra khơi mà không chuẩn bị kĩ lưỡng.</speak>
+            <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">..."chuẩn bị" ý ông là thức ăn và nước?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Thì, cái đó cũng cần thiết nhưng——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">——Điều quan trọng nhất là một con thuyền khỏe.</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">Keels! Triangle and square sails! That's what matters the most.</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Cô có nghĩ là sẽ có người đi tìm vùng đất mới bằng một cái thuyền gỗ nhỏ? Điều đấy là bất khả thi, biển không dịu dàng như thế.</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Nhưng nếu có thể đánh bại 「Leviathan」, thì tôi nghĩ mọi người sẽ nghe theo và dựng một con tàu đủ khỏe để đi khắp đại dương.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Ông có chắc chắn về điều đấy không ?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, không phải con người là sinh vật sống bằng niềm tin sao ?</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Ví dụ, cô có biết tại sao một nhóm nhỏ người Tây Ban Nha có thể chiến thắng một số lượng lớn người mọi rợ?</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Không phải là vì họ có sức mạnh khổng lồ—— Mà bọn họ không bao giờ để kẻ địch cảm thấy mình có cơ hội chiến thắng.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">*Đó là cách mà 200 mạo hiểm giả thông thường chiến đấu lại hàng nghìn kẻ địch và chinh phục Peru.</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">*Chiến thắng Trận Lepanto cũng là bên thiếu số, không phải là nhờ Galleass—— Kẻ địch bị đánh bại bởi chính quán tính của mình.</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">Có lẽ nào... Ông đến từ Tây Ban Nha thời đế quốc?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Ồ, cô nhận ra à?</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Không phải là tôi khoe khoang—— Nhưng trước khi đến đây, tôi không chỉ là lính kỳ cựu, mà còn là một người có học và đã sáng tác vài tác phẩm</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">Heh, ngữ điệu đấy làm cháu nghĩ sách của ông không được bán chạy.</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">Hmmm... Cũng có lí. Tôi không biết 400 năm sau tôi có nổi tiếng không.</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Một vài tác phẩm của tôi là 《La Galatea》, 《Los trabajos de Persiles y Sigismunda》——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">——Và 《Don Quixote》.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">Ông là...</speak>
+            <speak chara="_Rita" remark="next">Lẽ nào ông là... Miguel De Cervantes?</speak>
+            <remark post="U2FsdGVkX19Bo9kqC3iZolEItRdA">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">米格尔·德·塞万提斯·萨维德拉（Miguel de Cervantes Saavedra, 1547 ~ 1616）是西班牙文学世界里最伟大的作家，甚至连西班牙语都被称为“塞万提斯的语言”。他的《堂吉诃德》，被认为是文学史上的第一部“现代小说”。</p>
+                <p class="article-text">塞万提斯曾作为普通军人参加了1571年10月7日的勒班陀战役。在八年后撰写的一项官方报告中这样写道：“……在这场海战中，塞万提斯发着高烧，状态很差，连长和战友告诉他：你的情况很糟糕，应该好好躺在帆船的房间里。塞万提斯指责道：你们说什么呢，我没有尽到我应尽的义务，与其当怕死鬼，倒宁愿为了上帝和国王而战死……他就这样与战友们一起，像连长所命令的那样，在这场战斗中和土耳其人搏斗着。战斗结束后，胡安将军知晓了他的英勇表现，给了他额外的四个金币……在这场战役中，他的胸部和手部两处受伤，他的左手从此残废了。”</p>
+            </remark>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="beachIslandNoName.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">Chà, không phải tôi khá nổi tiếng sao!</speak>
+            <speak chara="_Cervantes">A master of literature! Hahaha, has a nice ring to it, I love it!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">And here I thought you were a soldier used to the battlefield... Who could have guessed you could be this smug.</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">Hahahaha! Làm sao tôi có thể không vui sau khi nghe thế chứ! Cô cũng nên cười đi, quý cô Bianka!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Cervantes">Nó sẽ tiếp thêm động lực khi chúng ta ra khơi!</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">Hmph. Ông lo thừa rồi. Chưa có một ngày nào cháu không cố hết mình kể từ khi trở thành Valkyrie lúc 10 tuổi.</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">Nếu ông dạy, cháu tự tin rằng mình có thể học cách đánh cá hoặc lái tàu một cách hoàn hảo.</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">Trời trời. Nhân tiện...</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">...Ông Cervantes, chúng ta nên phần chia công việc như nào sau khi ra khơi ?</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">Haha, đừng cứng nhắc thế. Cứ gọi tôi là 「Miguel」.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Dễ thôi.</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Tôi sẽ là thuyền trưởng. Tôi sẽ lái tàu và quyết định khi nào ta nên tiến lên hay rút lui. Còn hai cô——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Sở trường của cô Bianka là giáo, đúng không? Giao cho cô đống lao.</speak>
+            <speak chara="_Miguel">Miss Rita is a very attentive person, so keep an eye on the anchor rope to make sure it doesn't get tangled.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Dây neo? Dùng để làm gì?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Tất nhiên là để kéo con tàu lại gần con thủy quái.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Không thể giết nó nếu như ta ở quá xa, phải không? Hơn nữa, ta phải mang được xác của nó về hòn đảo để mọi người thấy. </speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">...Nếu 「Leviathan」 tấn công chúng ta thì phải làm gì? Con thuyền sậy này có hơi...</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">*Tôi sẽ tận dụng hải lưu để nó không có cơ hội tấn công. Đơn giản vậy thôi!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">À phải rồi, không phải hai cô cho người trên đảo xem cái gì đó à? Một khẩu "súng" có thể phá hủy cả đá tảng—— Nó được gọi là...</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">... Vũ khí tầm xa đa năng của tiền văn minh 「Thánh Tích thứ 2」. Không phải một cái tên quá khó nhớ.</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahahaha! Người già không giỏi nhớ tên dài.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Dù sao thì, chúng ta có một vũ khí mạnh hơn cả đại bác của Hạm đội Tây Ban Nha——</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——Cái mà ta đang đi trên không phải là một con thuyền sậy yếu ớt... mà là một tàu chiến tàn nhẫn đang đi săn!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Hãy nhớ điều này——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">「Leviathan」, sinh vật biển, bọn chúng cũng giống như quái bình thường thôi. Điểm khác biệt duy nhất là kích thước của nó.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——Và thợ săn dũng cảm không sợ hãi trước con mồi mà mình tiếp cận.</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——Phải, cô hiểu rồi!</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Bây giờ! Hãy giết nó!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <!-- RENAME: Look closely, old man. This is how a Valkyrie from 「Destiny」 fights! -->
+            <speak chara="_Bianka">Nhìn cho kỹ, ông già. Đây là cách Valkyrie cùa 「Schicksal」 chiến đấu!</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">(....)</speak>
+            <speak chara="_Rita">(Làm sao ông ấy có thể tự tin như thế khi nói 「quái bình thường」 chứ?)</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="seaWaveIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">Họ đã đi xung quanh hòn đảo để ước lượng kích thước và nhìn xuống nó từ nhiều núi đá, nhưng giờ khi đã ra khơi, hai Valkyrie mới nhận ra 「cảng」 nhỏ bé đến mức nào.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">*Dù chỉ mới vài phút kể từ khi con thuyền sậy rời bến, họ đã bỏ lại hòn đảo lại phía sau. Nơi 「trú ẩn」 đủ to để chứa vài chục người có thể thu lại trong lòng bàn tay.</p>
+            </text>
+            <text>Nắng giữa trưa chiếu rọi trên mặt biển. Ánh sáng phản chiếu chói đến nỗi khó có thể mở mắt.</text>
+            <text>Ông lão tiếp tục chèo thuyền bằng mái chèo dài, vững vàng tiến bước trong những đợt sóng nhấp nhô.</text>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Cẩn thận. Nó đang đến.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">... Cháu không cảm thấy gì ở gần đây.</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Phải, nhưng sắp đến thời điểm đó rồi.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">... Thời điểm?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Sau khi 「Leviathan」 đánh hơi được người trên biển, nó sẽ bắt kịp trong khoảng 15 phút.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Hiểu rồi——</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——Vậy đấy là lý do ông dừng thuyền ở đây!</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">*Đúng vậy. Rặng san hô cách 5 mét so với đáy thuyền sẽ bảo vệ chúng ta khỏi đòn tấn công từ bên dưới.</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Sau cùng thì, chúng ta chính là mồi nhử—— Bất cẩn có thể khiến ta mất mạng.</speak>
+            <speak chara="_Miguel">Cơ hội để hạ đòn chỉ xuất hiện trong thoáng chốc——</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">——Khoan, tiếng gì vậy!?</speak>
+            <show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="left"/>
+            <speak chara="_Rita">Tiếng động cơ!?</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Nhìn kìa! Có gì đó màu đen ở dưới nước...!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Kia là... máu?</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">Cái gì đó đang đấu với 「Leviathan」 ở dưới biển!</speak>
+            <show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="left"/>
+            <speak chara="_Rita">——Nó đang đến!</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG1.jpg">
+            <bgm src="noise.mp3" status="stop"></bgm>
+            <sound src="se_spring.mp3"/>
+            <cg src="CG1.jpg" bg="CG1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="_Bianka">Đây là...</speak>
+            <speak chara="_Bianka">... Tàu ngầm!?</speak>
+            <end post="U2FsdGVkX19d+mMVBhzEm6N2HRMF"/>
+        </scene>
+    </story>
+</data>

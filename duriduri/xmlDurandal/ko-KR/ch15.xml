@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="20" change="#000000"/>
+		</scene>
+		<scene id="20" background="iranStory.jpg">
+			<bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="back"/>
+			<show chara="zahhakYoung" position="center"/>
+			<speak chara="_ZarathustraDaughter">아주, 아주 오래전, 이란을 지배하는 「뱀의 왕」이라는 자가 있었습니다.</speak>
+			<speak chara="_ZarathustraDaughter">그 왕의 이름은 자학(Zahhak), 원래는 접경지 부족의 한 왕자였습니다.</speak>
+			<speak chara="_ZarathustraDaughter">자학은 왜소하고, 약하며, 경박한 사람이었습니다만, 그래도 그의 마음에는 선량함과 호기심이 가득했습니다.</speak>
+			<show chara="graySnakeNormal" position="center"/>
+			<speak chara="_ZarathustraDaughter" remark="next">어느 날, 그는 사냥을 하던 중, 계곡 밑으로 발을 헛디뎌 떨어지고 말았습니다——그리고 계곡 바닥에서 스스로를 「잔의 뱀」이라 부르는 마녀를 만나게 되었죠.</speak>
+			<remark post="U2FsdGVkX18ZP0Od3QyqZ58AYwfj">
+				<p class="article-text-h">역자 주:</p>
+				<p class="article-text">잔의 뱀은, 일어판 비주얼 노벨 원문에서, 「杯蛇」(はいへび, 하이헤비)로 쓰여 있으며, 이는 게임상에 등장하는 그레이 서펜트의 일어판 이름, 「灰蛇」(はいへび)와 발음이 같다.</p>
+			</remark>
+			<speak chara="_ZarathustraDaughter">얘기에 따르면, 마녀는 왕자의 두 어깨에 입을 맞추었고, 이에 왕자의 부러진 다리는 다시 나았을 뿐만 아니라 오히려 이전보다도 훨씬 강해졌다고 합니다.</speak>
+			<show chara="zahhakYoung" position="center"/>
+			<speak chara="_ZarathustraDaughter">왕자는 마녀에게 매우 감사해하며, 답례로 무엇이 필요한지를 물었죠.</speak>
+			<show chara="graySnakeSmile" position="center"/>
+			<speak chara="_ZarathustraDaughter">그러자 「잔의 뱀」은 담담히 웃으며 작별을 고할 뿐이었습니다. 「미래에 만민의 왕이 될 자여, 그대는 이미 충분한 답례를 해주었다. 그대의 운명은 이미 범인을 초월해, 우리들에게 즐거움을 가져다줄 것이다.」</speak>
+			<hide position="center"></hide>
+			<speak chara="_ZarathustraDaughter">당시, 자학은 자신의 몸에 어떤 변화가 일어났는지 여전히 알지 못했습니다. 계곡을 빠져나간 후, 그는 밤이 되기 전에 이 기적을 부왕께 알리고 싶어 서둘러 왕궁으로 돌아갔습니다.</speak>
+			<show chara="oldKingMoon" position="center"/>
+			<speak chara="_ZarathustraDaughter">그의 부왕, 연로한 마르다스는 매일 밤 왕궁의 화원을 홀로 걷곤 했습니다. 왕자가 기뻐하며 화원에 들어왔을 때도, 그는 꽃과 함께 달을 즐기고 있었습니다.</speak>
+			<show chara="oldKingNormal" position="center"/>
+			<speak chara="_ZarathustraDaughter">「아들아…… 무슨 나쁜 일이라도 있는 거냐? 얼굴이 새파랗게 질려있구나.」 노왕은 의아해하며 물었습니다.</speak>
+			<speak chara="_ZarathustraDaughter">자학은, 왕관을 쓰고 홀을 들고 있는 아버지를 보자, 무슨 일인지 뭔가 이상한 공복감이 느껴지기 시작했습니다.</speak>
+			<speak chara="_ZarathustraDaughter">그러자 두 어깨로 참을 수 없는 간지러움이 느껴졌습니다. 그가 간지러운 곳을 세게 긁자, 갑자기——</speak>
+			<show chara="zahhakNormal" position="center"/>
+			<speak chara="_ZarathustraDaughter">——한 쌍의 뱀 머리가 양쪽 어깨에서 튀어나왔습니다.</speak>
+			<speak chara="_ZarathustraDaughter">당황한 왕자가 반응할 틈도 없이, 뱀의 머리는 시위를 떠난 화살처럼 빠르고 정확하게 노왕의 목을 물어뜯고 있었습니다.</speak>
+			<show chara="black" position="center"/>
+			<speak chara="_ZarathustraDaughter">자학은 엄청난 충격에 빠져, 곡도를 꺼내, 눈을 감고 두 뱀을 향해 내려쳤습니다——</speak>
+			<show chara="zahhakNormal" position="center"/>
+			<speak chara="_ZarathustraDaughter">——그가 다시 눈을 떴을 때, 새로운 한쌍의 뱀의 머리가 다시 그의 양 어깨에서 자라나고 있는 걸 보았습니다.</speak>
+			<speak chara="_ZarathustraDaughter">그런 와중, 뱀독이 퍼진 노왕은 바닥에 쓰러진 채, 입에는 거품을 물으며, 죽어가고 있었습니다.</speak>
+			<show chara="zahhakSword" position="center"/>
+			<speak chara="_ZarathustraDaughter">그 순간, 자학은 더 이상 그 공복감을 참지 못하여,</speak>
+			<show chara="black" position="back"/>
+			<show chara="bloodStain" position="center"/>
+			<speak chara="_ZarathustraDaughter">곡도로 노왕의 머리를 내려쳤고, 어깨의 뱀들로 하여금 그의 부친의 뇌를 먹게 하였습니다.</speak>
+			<show chara="memoryLoading" position="back"/>
+			<show chara="zahhakSmile" position="center"/>
+			<speak chara="_ZarathustraDaughter">……그 시간부로, 그는 공포의 「뱀의 왕」이 되었습니다.</speak>
+			<hide position="center"></hide>
+			<speak chara="_ZarathustraDaughter">바로 다음날부터, 자학은 매일 밤 강한 힘을 가진 범죄자를 찾으러 다녔습니다, 어깨 위의 뱀들이 계속해서 인간의 뇌를 즐길 수 있도록.</speak>
+			<speak chara="_ZarathustraDaughter">곧, 자학이 있는 부족에 더 이상 범죄자가 남아있지 않게 되자, 더 큰 양심의 가책을 피하기 위해, 주변 부족에 전쟁을 선포하고, 그들을 정복하고, 심판하며——</speak>
+			<show chara="zahhakAxe" position="center"/>
+			<speak chara="_ZarathustraDaughter">——당연하다는 듯, 그 정복당한 「극악무도한 악인」들의 머리를 베어갔습니다.</speak>
+			<hide position="center"></hide>
+			<speak chara="_ZarathustraDaughter">더 이상 「뱀의 왕」은 오래전 사냥 중에 길을 잃은 왕자가 아니었습니다——</speak>
+			<speak chara="_ZarathustraDaughter">그의 손아귀는 너무나도 강력한 나머지 적을 둘로 쪼개버릴 수 있었고, 그의 피부는 날붙이로도 찌르는 게 불가능한 단단한 비늘이 자라나, 화가 난 소를 데려와도 그를 다치게 하는 게 불가능했습니다.</speak>
+			<show chara="zahhakSmile" position="center"/>
+			<speak chara="_ZarathustraDaughter">
+				그렇게 「뱀의 왕」의 군대는 계속해서 승리를 이어나갔습니다.</speak>
+			<show chara="zahhakShah" position="center"/>
+			<speak chara="_ZarathustraDaughter">그는 접경의 부족들을 통일한 것뿐만 아니라, 중앙의 왕조마저 무너뜨려 세계의 주인, 즉 「만왕의 왕」이라는 칭호를 손에 넣었습니다.</speak>
+			<show chara="zahhakAxe" position="center"/>
+			<speak chara="_ZarathustraDaughter">
+				그 이후, 「만왕의 왕」은 자신이 정복한 영토에 혹독한 형법을 도입하였죠——</speak>
+			<speak chara="_ZarathustraDaughter">——물론, 매일 새로운 사람들을 처형해, 걱정 없이 신선한 뇌를 계속해서 즐기기 위해서였습니다.</speak>
+			<hide position="center"></hide>
+			<speak chara="_ZarathustraDaughter">이렇게, 수백 년이 흘렀습니다.</speak>
+			<speak chara="_ZarathustraDaughter">「뱀의 왕」은 늙기 시작했고, 그의 법률과 정치적 수완은 더 이상 시대를 따라가지 못하게 되었습니다. 이에 그의 성격은 더욱더 비이성적이고 난폭해져 갔습니다——</speak>
+			<speak chara="_ZarathustraDaughter">——결국, 그에 대항하는 영웅이 나타나게 되었습니다.</speak>
+			<speak chara="_ZarathustraDaughter">영웅은 자학에 맞서려는 이들을 이끌어 그를 쓰러뜨리는데, 뜻밖에도 그가 불사의 몸을 가졌다는 걸 알게 됩니다. 그는 자학의 머리를 베었지만——</speak>
+			<speak chara="_ZarathustraDaughter">——한 쌍의 뱀의 머리는 여전히 그의 몸을 조종하며 저항을 이어나갔습니다.</speak>
+			<show chara="zahhakNoHead" position="center"/>
+			<speak chara="_zahhak">괘씸한 폭도 놈들…… 그 오랜 세월을 걸쳐, 국가를 통일해, 적들을 소멸시키고, 도적들을 모조리 죽여오며, 탐관오리들까지 계속해서 처형해왔건만……</speak>
+			<speak chara="_zahhak">너희들에겐, 이것이 그에 대한 「보답」이더냐?</speak>
+			<speak chara="_zahhak">너희들의 조상에게 물어보거라, 왜 그들이 「뱀의 왕」에게 만세를 외쳤는지!</speak>
+			<show chara="zahhakNoHead" position="center" opacity="0.8"/>
+			<show chara="graySnakeNormal" position="center"/>
+			<speak chara="_ZarathustraDaughter">그때, 자신을 「잔의 뱀」이라 불렀던 마녀가 갑자기 모두의 앞에 나타났습니다. </speak>
+			<show chara="graySnakeSmile" position="center"/>
+			<speak chara="_ZarathustraDaughter">「아, 불쌍한 왕 자학이여.」 마녀는 슬프다는 듯 말했습니다. 「중요한 것에서 실수를 하는 바람에, 이런 안타까운 모습이 되었구나.」</speak>
+			<show chara="graySnakeSmile" position="center" opacity="0.8"/>
+			<show chara="graySnakeNormal" position="center"/>
+			<speak chara="_graySnake">인간은 무언가를 극복하기 위해 존재한다.</speak>
+			<speak chara="_graySnake">그 무언가는, 극복하고 나면 그저 우스워 보일 존재이며, 동시에 그대를 부끄럽게 만들 존재이기도 하다.
+			</speak>
+			<speak chara="_graySnake">벌레에 불과했던 그대가 사람이 될 수 있도록 이끌어줬건만, 무슨 일을 저지른 건가? 결국 그대의 마음은 다시 벌레에게 침식당해버리고 말았다.</speak>
+			<show chara="graySnakeSmile" position="center"/>
+			<speak chara="_graySnake">봉기군 여러분, 그대들도 알아야 할 것이 있다. 인간의 몸은 결코 그 자신의 영혼을 존중하지 않는다.</speak>
+			<show chara="graySnakeNormal" position="center"/>
+			<speak chara="_graySnake">우리 모두의 본능은 도저히 깨끗하다고는 할 수 없는 도랑에 흐르는 물과 같지만——</speak>
+			<speak chara="_graySnake">——오직 바다, 모든 강과 호수를 뛰어넘는 바다만이, 이러한 더러움을 오염되는 일 없이 받아들일 수 있다.</speak>
+			<speak chara="_graySnake">불쌍한 왕 자학이여, 나는 그대에게 「인류」을 초월할 기회를 주었건만, 그대는 결국 그 기회를 자신의 영혼을 부숴버리는데 쓰고 말았다.</speak>
+			<speak chara="_graySnake">육체를 경멸하는 그대의 영혼을 통해, 본능이라는 족쇄를 벗어낼 수 있으리라 믿었건만.</speak>
+			<speak chara="_graySnake">하지만 그대가 더 노력할수록 그대의 몸은 여위고, 흉측하게 변해갔고, 그대의 영혼은 이의 열 배나 더 약하고 추악해지고 말았다. 사실상, 그대는 이미 자신의 영혼까지 굶겨 죽여버리고 만 것이다.</speak>
+			<show chara="graySnakeSilence" position="center"/>
+			<speak chara="_graySnake">불쌍한 왕 자학이여, 그대의 영혼은 언제나 그 육체를 이해하길 거부했고, 결국 그대의 육체는 짐승의 것과도 같은 욕망의 심연에 빠지고 말았다.</speak>
+			<speak chara="_graySnake">애초에 그대의 어깨에 있는 뱀들은 뇌를 필요로 한 적이 없다. 그들은 그저 그대가 빠르게 왕이 될 수 있도록 도왔을 뿐이니.</speak>
+			<show chara="graySnakeSpeak" position="center"/>
+			<speak chara="_graySnake">아직도 깨닫지 못했는가? 어떤 뇌를 삼키든, 거기엔 무언가의 지혜가 담겨있고, 이는 그대의 일부가 된다.</speak>
+			<speak chara="_graySnake">그렇기에 그대는 강력한 지배자가 될 수 있었고, 그렇기에 그대는 탁월한 범죄자가 될 수 있었다.</speak>
+			<speak chara="_graySnake">분명 나는 그대를 「미래의 만인의 왕」이라 불렀지만, 이에 대한 그대의 이해가 비웃음이 나올 정도로 얕았다는 걸 직접 목격하게 되니, 그저 안타까움을 금할 길이 없다.</speak>
+			<speak chara="_graySnake">그 두 마리의 뱀은 그저 그대의 소원이 이루어지도록 도왔을 뿐이니.</speak>
+			<show chara="graySnakeNormal" position="center"/>
+			<speak chara="_graySnake">오만한 왕 자학이여, 인생은 돌이킬 수 없는 거래와도 같다만, 그대는 자신이 뭘 거래하고 있는지조차 모르고 있었다.</speak>
+			<speak chara="_graySnake">그대에게 범인을 초월할 가능성을 주었지만, 그대는 그저 「소꿉장난」에 낭비해버리고 말았다.</speak>
+			<speak chara="_graySnake">자학이여, 그대에겐 더 이상 「인류를 초월할」 가능성이 남아있지 않다.</speak>
+			<speak chara="_graySnake">이제, 거래를 끝낼 시간이다.</speak>
+			<show chara="graySnakeSmile" position="center"/>
+			<speak chara="_graySnake">……그대는 희귀한 표본이긴 하였다. 다만 나의 주인님이 기대하던 「초월자」는 아니었다.</speak>
+			<hide position="center"></hide>
+			<speak chara="_ZarathustraDaughter">말을 마친 후, 신비로운 분위기의 마녀는 다트를 던졌고, 이는 곧 자학의 가슴에 꽂혔습니다.</speak>
+			<speak chara="_ZarathustraDaughter">그러자 한때 「만왕의 왕」이었던 이는 무겁게 바닥에 쓰러졌고, 두 마리의 뱀 또한 빠르게 여위어가며 죽어버렸습니다. 그리고 마녀는 당황해하는 민중들 앞에서, 여유롭게 그 「제물」의 과거에 대해 이야기해 주기 시작했습니다.</speak>
+			<goto goto="30" change="#ffffff"/>
+		</scene>
+		<scene id="30" background="asteroidPalace.jpg">
+			<bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+			<show chara="ZarathustraThinkClose" position="center"/>
+			<speak chara="_ZarathustraDaughter">——이것이 제 아버지께서 해주신 「뱀의 왕」에 대한 이야기입니다.</speak>
+			<speak chara="_ZarathustraDaughter">제가 15세가 되기 전까지, 저는 이 이야기가 단순한 허무맹랑한 전설이라 믿고 있었습니다.</speak>
+			<speak chara="_ZarathustraDaughter">그런데……</speak>
+			<goto goto="40" change="#000000"/>
+		</scene>
+		<scene id="40" background="scythianStory.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="back"/>
+			<show chara="oldZaraNormal" position="center"/>
+			<speak chara="_oldZara">에스텔, 갑작스럽게 됐지만, 이것이 우리의 마지막 만남이 될지도 모르겠구나.</speak>
+			<show chara="oldZaraAngry" position="center"/>
+			<speak chara="_oldZara" remark="next">전세가 참담하게 바뀌어가고 있단다…… 샤카족의 기습에 폐하의 친위 부대인 「추종자」를 전멸해버리고 말았다는구나. 폐하 역시 무사하시긴 어렵겠지.</speak>
+			<remark post="U2FsdGVkX18ZP0Od3QyqZ58AYwfj">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">불멸자 (Ἀθάνατοι)——는 고대 그리스 역사가 헤로도토스(Ἡρόδοτος, 기원전484~425년) 가 아케메네스 왕조의 중앙 친위군에게 붙인 호칭이다.</p>
+				<p class="article-text">헤로도토스는 중장보병으로 구성된 이들이 항상 일만 명이란 숫자를 유지하는 걸 보고, 「불멸자」라고 묘사하였다. 이 부대는, 그가 말하길, 어느 병사든 죽거나 심각한 부상 혹은 질병을 얻게 되면, 즉시 새로운 병사로 교체된다고 하였다.</p>
+				<p class="article-text">페르시아의 기록에도 이 정예부대에 대한 기록을 확인할 수 있지만, 그들은 「불멸자」가 아닌, 「추종자」라 불려졌다. 어쩌면 헤르도토스, 혹은 그의 정보원이 페르시아 고대어의 「Anûšiya」(「추종자」)와 「Anauša」(「불멸자」)를 혼동하여 임의로 해석했을 가능성도 있다.</p>
+			</remark>
+			<show chara="oldZaraNormal" position="center"/>
+			<speak chara="_oldZara">지금, 군의 수장이 부재중이고, 캄비세스 왕자도 저 멀리 바빌로니아에 있으니, 대사제인 내가 당장 전선으로 달려나가, 행방불명된 폐하를 대신하여 전투를 지휘할 수밖에 없구나.</speak>
+			<speak chara="_oldZara">분명 결말은 좋지 않을 것이다…… 그러니 지금 너에게 이 두 가지 물건을 주려고 한다. 상황이 정말로 심각해졌을 때, 이것들이 너를 구해줄 수 있을 것이다.</speak>
+			<show chara="oldZaraInjector" position="center"/>
+			<speak chara="_oldZara">먼저, 약이 담겨있는 병이다. 만약 싸움을 피할 수 없게 된다면, 아래의 마개를 벗기고, 바늘을 피부 위로 찔러라.</speak>
+			<speak chara="_oldZara">이걸 사용하면, 한때 「뱀의 왕」이 가졌던 그 힘을 손에 넣게 될 것이다.
+			</speak>
+			<speak chara="_ZarathustraDaughter">……「뱀의 왕」?</speak>
+			<speak chara="_oldZara">그래, 「뱀의 왕」. 그 전설은 순전히 시인들의 허구만으로 만들어진 게 아니었단다.</speak>
+			<speak chara="_oldZara">나와 폐하 역시 그 「잔의 뱀」과 만난 적이 있었지. 이 약병은 그녀에게서 얻어낸 것이다.</speak>
+			<speak chara="_ZarathustraDaughter">하지만……</speak>
+			<speak chara="_oldZara">나도 이 힘이 매우 위험한 것이라는 걸 잘 알고 있단다. 이론상으로는 「초월자」가 될 수 있는 방법 중 하나겠지만——그중에 최악의 방법이겠지.</speak>
+			<speak chara="_oldZara">이 두 번째 물건을 준비해둔 건 바로 그 때문이란다.</speak>
+			<show chara="oldZaraGenius" position="center"/>
+			<speak chara="_oldZara">이것은 고대 문명이 남긴 전송 장치이다. 이걸 사용한다면, 네 원래의 삶으로 돌아갈 수 있을 것이다.</speak>
+			<speak chara="_ZarathustraDaughter">원래의…… 삶이라고요?</speak>
+			<speak chara="_ZarathustraDaughter">그게…… 대체 무슨 얘기이신가요?</speak>
+			<bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+			<speak chara="_oldZara">에스텔…… 난 너의 친부가 아니란다.</speak>
+			<speak chara="_oldZara">너를 낳다 돌아가신 어머니도 실제론 존재하지 않지…… 너를 처음 본 건, 우리가 「잔의 뱀」의 소굴에 들어갔을 때였다.</speak>
+			<speak chara="_ZarathustraDaughter">대체 무슨…… 말씀을 하시는 거세요?</speak>
+			<speak chara="_oldZara">오래전, 폐하께선 그저 세상을 떠돌아다니는 왕자에 불과했고, 나 역시도 그저 이름 없는 학자에 불과했단다.</speak>
+			<speak chara="_oldZara">모험을 하던 중, 우리는 그 전설적인 마녀——「잔의 뱀」의 흔적을 발견하였지.</speak>
+			<speak chara="_oldZara"> 「하룻강아지가 범 무서운 줄 모른다」는 말처럼, 우리는 그 마녀의 추종자로 위장해, 그녀를 만났고, 기회를 노려 그녀를 암살했다.
+			</speak>
+			<speak chara="_oldZara">「잔의 뱀」의 소굴은 수많은 마법 장치들이 가득했단다——그중에 지금의 너를 태어나게 한 장치도 있었지.</speak>
+			<speak chara="_ZarathustraDaughter">……장치에서요? 그렇다는 건, 전 인조인간이라는 건가요?</speak>
+			<speak chara="_oldZara">거기까진 나도 잘 알지 못한다.</speak>
+			<speak chara="_oldZara">그 장치는 매우 특별해서——당시엔 거기에 쓰인 글을 전혀 읽을 수 없었지만——분명 이것이 어떠한 긴 시간을 기다리고 있었다는 건 알 수 있었지.</speak>
+			<speak chara="_oldZara">나는 폐하와는 다르게, 「왕자로서 세상 구경을 해야 한다」 같은 의무가 없었기에,</speak>
+			<speak chara="_oldZara">나는 「잔의 뱀」을 암살한 후, 그녀의 소굴에서 그녀가 남긴 마법들의 원리를 깨우치는데 나의 모든 걸 쏟아부었지.</speak>
+			<speak chara="_oldZara">……그렇게 20년이나 흐르고 말았다.
+			</speak>
+			<speak chara="_oldZara">「잔의 뱀」이 남긴 마법들은 정말로 대단했지만, 나는 몇 가지 구절만 겨우 해독했을 뿐, 나머지 마법의 단어들은 전혀 해독하지 못했다.</speak>
+			<speak chara="_oldZara">그렇게 내 생애를 여기서 마감할 수는 없다고 생각하고, 이 곳을 떠나려 결심한 순간——</speak>
+			<speak chara="_oldZara">어느 이른 여름의 저녁, 너에게 생명을 준 그 장치가 오랜 세월의 기다림 끝에 갑자기 멈춰 섰지.</speak>
+			<speak chara="_oldZara">연꽃잎이 펼쳐지듯 장치가 열리더니, 시원한 기운이 발 위로 흐르는 게 느껴졌다.</speak>
+			<speak chara="_oldZara">……그리고 너, 에스텔이 그 꽃잎 속에서 태어났단다.</speak>
+			<speak chara="_oldZara">자라나는 너는 내게 새로운 인생을 안겨주었다. 또한 「마법」과 「신」이라는 신비에 한 발짝 더 다가갈 수 있는 기회를 주었지.</speak>
+			<speak chara="_oldZara">너는 「잔의 뱀」이 그 한 번밖에 쓸 수 없는 기계를 사용해, 어느 시간의 파편에서 훔쳐 온 아이인 것 같았다.</speak>
+			<speak chara="_oldZara">현세의 마녀와 구세대의 현자——그들이 쓴 언어를, 넌 태어났을 때부터 이해하고 있었다.</speak>
+			<speak chara="_oldZara">그래, 너의 아버지라는 자는, 「깨달음」을 얻어, 종교를 창시한 게 아니다.</speak>
+			<speak chara="_oldZara">네 아비는, 네가 기억하지 못할 정도로 어렸을 때, 너를 통해 그들이 남긴 걸 번역하며 배웠을 뿐이야. 단지 그뿐이다.</speak>
+			<speak chara="_oldZara">너의 탄생으로 인해, 우리는 고대 문명이 남긴 불멸의 정신에 대해 알게 되었다.</speak>
+			<speak chara="_oldZara">너의 탄생으로 인해, 우리는 「초월자」에 대한 개념과 그 가치에 대해 알게 되었다.</speak>
+			<speak chara="_oldZara">너의 탄생으로 인해, 우리는 대립하는 두 명의 신이 무엇을 위해 서로 다투고 있는지 알게 되었다.</speak>
+			<speak chara="_oldZara">에스텔, 별의 아이야……</speak>
+			<speak chara="_oldZara">너는, 이 모자란 아버지가 보기에 분명 틀림없는 「신의 자식」이다. 이제 그 사악한 샤카족이 우리를 죽이러 오겠지만, 너만은 반드시 살아남을 방법을 찾아야만 한다.</speak>
+			<speak chara="_ZarathustraDaughter">하지만……</speak>
+			<speak chara="_oldZara">다시 말하마, 내게 무슨 일이 일어나든, 아니 다른 누구나, 이 나라에 무슨 일이 일어나든, 너는 너의 인생을 살아라.</speak>
+			<speak chara="_oldZara">이 「게니우스」라는 전송 장치를 쓰면 시공간을 뛰어넘어 「신비의 바다」를 건너게 해, 「광명의 세계」에 이르도록 해줄 거라 믿는다.</speak>
+			<speak chara="_oldZara">너는 원래부터 그곳에 속해있던 존재이니 말이다.</speak>
+			<goto goto="50" change="#ffffff"/>
+		</scene>
+		<scene id="50" background="asteroidPalace.jpg">
+			<bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">「게니우스」? 그거——</speak>
+			<show chara="ritaVestHesitateClose" position="left"/>
+			<speak chara="_Rita">——대사제님, 그렇다는 말은, 당신은 「원래부터」 이 세계의 주민이었다는 말인가요?</speak>
+			<show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ZarathustraSorrowClose" position="right"/>
+			<speak chara="_ZarathustraDaughter">……아뇨, 그건 그저 제 아버님의 바람에 불과했어요.</speak>
+			<show chara="ZarathustraNormalClose" position="right"/>
+			<speak chara="_ZarathustraDaughter">샤카족의 공격이 성까지 이르렀을 때, 저는 파괴할 수 있는 모든 자료를 폐기하고, 「게니우스」를 작동시켰죠.</speak>
+			<show chara="ZarathustraThinkClose" position="right"/>
+			<speak chara="_ZarathustraDaughter">눈앞의 세계는 빠르게 뒤틀려가며, 저는 아버님이 말씀하신 「광명의 세계」에 이르길 기대했지만——</speak>
+			<goto goto="60" change="#000000"/>
+		</scene>
+		<scene id="60" background="manderlbrot13.jpg">
+			<bgm src="06_14_equipment.mp3" status="start"></bgm>
+			<speak chara="_ZarathustraDaughter">——거기서 절 기다리고 있던 건, 그저 허무의 심연뿐이었습니다.</speak>
+			<goto goto="70" change="0"/>
+		</scene>
+		<scene id="70" background="manderlbrot12.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">아무리 눈을 감아도, 하늘의 균열들이 계속해서 눈에 들어왔습니다.</speak>
+			<goto goto="80" change="0"/>
+		</scene>
+		<scene id="80" background="manderlbrot11.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">아무리 귀를 막아도, 이 세상의 것이 아닌 속삭임이 들렸습니다.</speak>
+			<goto goto="90" change="0"/>
+		</scene>
+		<scene id="90" background="manderlbrot10.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">아무리 입을 굳게 닫아도, 입안이 녹이 슨 쇳가루로 가득 찬 듯, 씁쓸함으로 가득했습니다.</speak>
+			<goto goto="100" change="0"/>
+		</scene>
+		<scene id="100" background="manderlbrot09.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">아무리 숨을 참아도, 목 속에선 불길과 짙은 연기가 소용돌이치는 게 느껴졌습니다.</speak>
+			<goto goto="110" change="0"/>
+		</scene>
+		<scene id="110" background="manderlbrot08.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">서둘러 독말풀을 삼켰지만, 손끝이 불에 타들어가는 듯한 고통이 느껴졌습니다.</speak>
+			<goto goto="120" change="0"/>
+		</scene>
+		<scene id="120" background="manderlbrot07.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">심연의 밖이라면 찰나의 순간이었을지도 모르겠지만, 심연 속에 떨어진 저에겐 마치 수천 년이 지나간 듯했습니다.</speak>
+			<goto goto="130" change="0"/>
+		</scene>
+		<scene id="130" background="manderlbrot06.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">——시간과 공간이 아무런 의미도 가지지 못하는 이곳에서, 아무런 이정표도, 나침반도 없이, 그저 자아가 산산조각 난 채 공허를 떠돌 뿐이었습니다.</speak>
+			<goto goto="140" change="0"/>
+		</scene>
+		<scene id="140" background="manderlbrot05.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">육체, 영혼, 신경, 두뇌, 혈액, 심장—— 신체의 모든 곳으로부터 느껴지는 고통에, 제 몸은 아무런 기능도 할 수 없었습니다.</speak>
+			<goto goto="150" change="0"/>
+		</scene>
+		<scene id="150" background="manderlbrot04.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">그곳은 결코 「광명의 세계」라 부를 수 없는 곳이었습니다.</speak>
+			<goto goto="160" change="0"/>
+		</scene>
+		<scene id="160" background="manderlbrot03.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">그곳은 영원, 영겁에 걸친 각각의 순간마다 인간의 모든 것을 산산조각 내는…… 지옥이었습니다.</speak>
+			<goto goto="170" change="0"/>
+		</scene>
+		<scene id="170" background="manderlbrot02.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">그리고 마침내 이러한 모든 고통들이 익숙해져왔을 때, 저의 삼위일체가 다시 저의 자아를 회복시키기 시작했습니다——</speak>
+			<goto goto="180" change="0"/>
+		</scene>
+		<scene id="180" background="manderlbrot01.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">그곳에서 저는 이 갈라진 틈새, 이 끝없는 심연과 영원한 순환의 본모습을 똑똑히 목격하였습니다. 눈으로 본 진실이 아닌 마음으로 본 진실로서.</speak>
+			<goto goto="190" change="0"/>
+		</scene>
+		<scene id="190" background="manderlbrot00.jpg">
+			<bgm src="06_14_equipment.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">그것은 바로 광명의 신으로부터 버려진 방정식, 바로 마귀의 심장이었습니다.</speak>
+			<goto goto="200" change="#ffffff"/>
+		</scene>
+		<scene id="200" background="asteroidPalace.jpg">
+			<bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+			<show chara="ZarathustraSmileClose" position="center"/>
+			<speak chara="_ZarathustraDaughter">네, 제 얘기는 여기까지입니다.</speak>
+			<speak chara="_ZarathustraDaughter">한밤중의 산들바람이 느껴지는군요, 모두들 이미 깊은 꿈에 빠지셨겠죠.</speak>
+			<speak chara="_ZarathustraDaughter">아무런 고통도, 아무런 원망도 없이,</speak>
+			<speak chara="_ZarathustraDaughter">영혼들이여, 내가 너희 몸의 사사로운 치욕과 부덕함을 씻어내리니, 너희 모두가 태양 아래에서 다시 한번 찬란한 빛을 쐴 수 있도록 하리라.</speak>
+			<goto goto="210" change="0"/>
+		</scene>
+		<scene id="210" background="CG15-1.jpg">
+			<bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+			<speak chara="_ZarathustraDaughter">——와서 나와 함께하거라, 죽음으로 나와 한 몸이 되고, 나의 영혼 속에 잠들어라.</speak>
+			<speak chara="_ZarathustraDaughter">이 무한과 허무를 떠도는 껍데기 속에선, 오직 「하나」의 초월자만이 필요하리니.</speak>
+			<end post="U2FsdGVkX18hKC2MgZAA1oJbC8G9"/>
+		</scene>
+	</story>
+</data>

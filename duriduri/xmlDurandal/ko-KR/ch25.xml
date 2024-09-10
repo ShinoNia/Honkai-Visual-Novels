@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000"/>
+		</scene>
+		<scene id="10" background="commandCenterHuaca.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>7년 전——</text>
+			<show chara="DraculaThinkClose" position="left"/>
+			<speak chara="_Dracula">차관씨, 현재 상황을 모두에게 알려줘.</speak>
+			<show chara="DraculaThinkClose" position="left" opacity="0.8"/>
+			<show chara="thorNormalClose" position="right"/>
+			<speak chara="_Thoreau">그러죠.</speak>
+			<show chara="thorAngryClose" position="right"/>
+			<speak chara="_Thoreau">오늘 새벽 자동 감시 중, 라파누이 섬에서 붕괴능의 이상 응집 현상을 발견했습니다.</speak>
+			<show chara="thorAngryClose" position="right"/>
+			<speak chara="_Thoreau">동시에, 지금 저희가 있는 앵커 포인트 중심에선 붕괴능의 이상 고갈 현상이 발생했죠——이를 저흰 「앵커 모세관 폐쇄」 현상이라 추론하고 있습니다.</speak>
+			<show chara="thorAngryClose" position="right" opacity="0.8"/>
+			<show chara="DraculaSeriousClose" position="left"/>
+			<speak chara="_Dracula">……</speak>
+			<show chara="DraculaSeriousClose" position="left"/>
+			<speak chara="_Dracula">YUKI(유키, 幸), 네 생각은 어때?</speak>
+			<show chara="DraculaSeriousClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraTalkClose" position="right"/>
+			<speak chara="_Yukimura">섬 자체는 버려진 휴양지이고, 붕괴능이 축적된다 해서 직접적인 인명피해로는 이어지지 않을 것입니다.</speak>
+			<show chara="yukimuraColdClose" position="right"/>
+			<speak chara="_Yukimura">하지만 동시에, 앵커 포인트 중심에선 붕괴능의 비정상적인 고갈 상태가 이어지고 있죠…… 이는 섬과 앵커 포인트 사이에 이 두 곳을 잇는 모세관이 있을 가능성이 큽니다.</speak>
+			<show chara="yukimuraSeriousClose" position="right"/>
+			<speak chara="_Yukimura">이대로 방치할 경우, 섬엔 붕괴능이 과다하게 축적되게 될 것이고, 언젠가 둑이 터지듯 한꺼번에 쏟아져 나오게 될 것입니다. 이 경우, 앵커 포인트의 중심부는 괴멸적인 피해를 입게 될 것입니다.</speak>
+			<show chara="yukimuraTalkClose" position="right"/>
+			<speak chara="_Yukimura">최악의 경우, 쓰나미만큼이나 위험할 수 있습니다——물론, 분초를 다툴 만큼 긴급하지는 않습니다.</speak>
+			<show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+			<show chara="thorNormalClose" position="left"/>
+			<speak chara="_Thoreau">……그럼, 사나다 참모장의 건의에 따라, 300명의 공사팀을 파견해서 일을 해결하도록 하죠, 괜찮나요?</speak>
+			<show chara="thorNormalClose" position="left" opacity="0.8"/>
+			<show chara="DraculaQuestionClose" position="right"/>
+			<speak chara="_Dracula">300명? 그렇게 많이?</speak>
+			<show chara="DraculaQuestionClose" position="right" opacity="0.8"/>
+			<show chara="thorNormalClose" position="left"/>
+			<speak chara="_Thoreau">포트 칼데라에서 공사용 증기선을 타고 출발하면, 라파누이 섬까지는 빨라도 5일이 걸립니다.</speak>
+			<show chara="thorSighClose" position="left"/>
+			<speak chara="_Thoreau">지금 당장이라면 3명만으로도 붕괴능 응집 문제를 해결할 수 있겠지만, 5일 후면 30명이 필요하게 될 거고, 10일 후면 300명이 필요하게 될 겁니다——이상할 거 없죠?</speak>
+			<show chara="thorNormalClose" position="left"/>
+			<speak chara="_Thoreau">이동 자체에 필요한 시간과 악천후의 가능성을 고려하면, 300명을 데려가는 게 가장 안전하다고 봅니다.</speak>
+			<show chara="thorAngryClose" position="left"/>
+			<speak chara="_Thoreau">……이번 임무, 예상치 못한 난관에 부딪힐 가능성이 있어요.</speak>
+			<show chara="thorAngryClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraColdClose" position="right"/>
+			<speak chara="_Yukimura">그 점에 대해서 말인데——여러분, 이 일을 제게 맡겨주셨으면 합니다.</speak>
+			<show chara="yukimuraColdClose" position="right" opacity="0.8"/>
+			<show chara="DraculaQuestionClose" position="left"/>
+			<speak chara="_Dracula">……왜?</speak>
+			<show chara="DraculaThinkClose" position="left"/>
+			<speak chara="_Dracula">넌 에테르 앵커 방어 시스템의 설계자 중 하나야. 원칙상 네가 직접 위험에 노출되는 건 용인될 수 없어.</speak>
+			<show chara="DraculaThinkClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraSmileClose" position="right"/>
+			<speak chara="_Yukimura">바로 그게 이유에요. 저는 방어 시스템의 구조와 성능을 잘 이해하고 있으니, 임기응변이나 올바른 전략 선택에 충분한 판단력을 가졌다고 할 수 있겠죠.</speak>
+			<show chara="yukimuraTalkClose" position="right"/>
+			<speak chara="_Yukimura">게다가, 이 세계엔 아직 에테르 앵커의 모세관 폐쇄 현상을 대처해 본 경험이 있는 사람이 한 명도 없습니다. 더 큰 재난이 오는 걸 막기 위해서라도, 앵커 포인트에 익숙한 특수 요원이자, 공병으로서의 경험도 풍부한 별을 얘기하는 자를 파견할 필요가 있다고 생각합니다.</speak>
+			<show chara="yukimuraSmileClose" position="right"/>
+			<speak chara="_Yukimura">……게다가, 이건 평소에 제가 여러분들께 진 빚을 갚을 좋은 기회이기도 하죠.</speak>
+			<show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+			<show chara="thorNormalClose" position="left"/>
+			<speak chara="_Thoreau">……</speak>
+			<show chara="thorNormalClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraSmileClose" position="right"/>
+			<speak chara="_Yukimura">혹시 모르니, 사령관님, 한 가지 빌려주셨으면 하는 게 있습니다.</speak>
+			<show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+			<show chara="DraculaQuestionClose" position="left"/>
+			<speak chara="_Dracula">……?</speak>
+			<goto goto="20" clockwise="1"/>
+		</scene>
+		<scene id="20" background="moaiEasterIsland.jpg">
+			<bgm src="noise.mp3" status="start"></bgm>
+			<show chara="caravaColdClose" position="left"/>
+			<speak chara="_Caravaggio">사나다는 자재부에서 하나밖에 없는 「번영의 결정」을 빌려 갔다——이미 사건이 일어난 지금 와서 생각해 보면, 아마도 그녀는 처음부터 최악의 경우를 상정했을 것이다.</speak>
+			<show chara="caravaColdClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">……그럼, 저런 모습은 어떻게 된 거예요?</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="caravaDisgustedClose" position="left"/>
+			<speak chara="_Caravaggio">확실힌 모른다. 당시 이곳의 붕괴능 농도는 우리의 상상보다 훨씬 높았다.</speak>
+			<show chara="caravaFocusClose" position="left"/>
+			<speak chara="_Caravaggio">그녀가 무슨 방법을 썻는 지는 모르지만……내가 다시 깨어났을 땐, 붕괴능은 이미 상당량이 감소했고, 모세관의 폐쇄 상태도 해결되어 있었다.</speak>
+			<show chara="caravaDisgustedClose" position="left"/>
+			<speak chara="_Caravaggio">그리고 그녀는…… 현장에 그대로 굳어버리고 말았다——당시의 모습 그대로 몸의 대부분이 결정화되어버렸다.</speak>
+			<show chara="caravaFocusClose" position="left"/>
+			<speak chara="_Caravaggio">솔직히, 「번영의 결정」이 제공하는 추가적인 생명력이 없었다면, 누가 와도 목숨을 잃었을 거다.</speak>
+			<show chara="caravaSurpriseClose" position="left"/>
+			<speak chara="_Caravaggio">……진눈깨비를 본 적 있나? 때로는 나무를 통째로 얼리기도 하지.</speak>
+			<show chara="caravaFocusClose" position="left"/>
+			<speak chara="_Caravaggio">사나다의 몸에 침입한 붕괴능이 끊임없이 결정화되어갈 때, 그런 날씨가 떠오르더군.</speak>
+			<show chara="caravaSurpriseClose" position="left"/>
+			<speak chara="_Caravaggio">사람들은 별을 얘기하는 자의 몸은 그 자체가 붕괴능을 담을 수 있는 그릇이라 말한다.</speak>
+			<show chara="caravaFocusClose" position="left"/>
+			<speak chara="_Caravaggio" remark="next">결정화된 붕괴능은 쉽게 흩어지지 않지, 마치 다이너마이트의 니트로글리세린이 상대적으로 안정적인 것처럼.</speak>
+			<remark post="U2FsdGVkX19F48nvbMaxcMojdPXv">
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">니트로글리세린(Nitroglycerin, CHNO3(CH2NO3)2)은 일종의 강력한 폭약이다. 1847년 튜린 대학교의 화학자, 아스카니오 소브레로(Ascanio Sobrero)에 의해 발명되었다.</p>
+				<p class="article-text">고순도 니트로글리세린은 강한 폭발력을 가졌지만, 너무 쉽게 폭발을 일으켰고(심지어 운송 중에 생긴 약간의 흔들림만으로도 폭발하기도 하였다), 이는 생산과 군사적인 목적의 이용에 상당한 제한을 주었다. 이후 1866년 소브레로의 제자인 노벨이 니트로글리세린을 규조토와 섞어 안정화시킨 「안전 폭약」(다이너마이트)를 발명하였다.</p>
+			</remark>
+			<show chara="caravaFocusClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">그래서 그녀를 여기에 계속 방치해둔 건가요?</speak>
+			<show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+			<show chara="caravaDisgustedClose" position="left"/>
+			<speak chara="_Caravaggio">무슨 말이 하고 싶나? 그녀의 몸은 이미 결정화되고 말았어, 식물인간과 다를 바 없지——이게 살아있다고 할 수 있나?</speak>
+			<show chara="caravaSurpriseClose" position="left"/>
+			<speak chara="_Caravaggio">어떠한 충격이 가해져 부서지게 되더라도, 더 이상 손쓸 방법은 없겠지.</speak>
+			<show chara="caravaSurpriseClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHateClose" position="right"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressHateClose" position="right" opacity="0.8"/>
+			<show chara="caravaDisgustedClose" position="left"/>
+			<speak chara="_Caravaggio">하지만, 이미 7년이나 지났다…… 지금, 이런 문제는 별로 중요하지 않아. 중요한 건——</speak>
+			<show chara="caravaColdClose" position="left"/>
+			<speak chara="_Caravaggio">너희들도, 이 국가도, 이 세상도——모두가 그녀의 몸에 있는 그 결정을 필요로 하는 것 아닌가?</speak>
+			<show chara="caravaColdClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">말은 그렇지만…… 그래도——</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<text>발키리의 말이 끝나기도 전에, 원주민 차림을 한 유화가는 이미 결정화된 무사 앞으로 다가가고 있었다.</text>
+			<text>그녀는 조용히 곤봉을 들어올렸다.</text>
+			<speak chara="_Bianka">저…… 저기!! 대체 뭘 하려는 거예요?!</speak>
+			<text>곤봉을 든 유화가는 아무런 반응도 보이지 않았다.</text>
+			<text>그녀는 마치 아무것도 안 들린다는 듯, 힘껏 곤봉을 내리쳤다.</text>
+			<goto goto="30" change="0"/>
+		</scene>
+		<scene id="30" background=".jpg">
+			<bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+			<shake position="all" time="250"></shake>
+			<speak chara="_Bianka">멈춰요!</speak>
+			<goto goto="40" change="0"/>
+		</scene>
+		<scene id="40" background="CG25-1.jpg">
+			<bgm src="noise.mp3" status="start"></bgm>
+			<speak chara="_Bianka">제정신이에요?!</speak>
+			<speak chara="_Bianka">이 사람, 아직 살아있잖아요?!</speak>
+			<speak chara="_Caravaggio">쳇.</speak>
+			<speak chara="_Caravaggio">너 같은 녀석은 정말 이해할 수 없군.</speak>
+			<speak chara="_Bianka">……네??</speak>
+			<speak chara="_Caravaggio">너, 이 보석 때문에 온 거 아니었나?</speak>
+			<speak chara="_Caravaggio">지금 보석이 그녀의 몸속에 있다면, 이 결정을 깨부수는 게 그 보석을 구할 유일한 방법 아닌가?</speak>
+			<speak chara="_Bianka">절대 아니에요!!</speak>
+			<speak chara="_Caravaggio">좋아, 더 나은 방법이 있으면, 내게도 알려주지 그래?!</speak>
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Caravaggio">아니라면 얼른 비켜!!</speak>
+			<goto goto="50" change="0"/>
+		</scene>
+		<scene id="50" background="moaiEasterIsland.jpg">
+			<bgm src="bigTask.mp3" status="start"></bgm>
+			<show chara="schroTalkClose" position="left"/>
+			<speak chara="_Schrodinger">……잠깐이라는 것이에요.</speak>
+			<show chara="schroTalkClose" position="left" opacity="0.8"/>
+			<show chara="caravaColdClose" position="right"/>
+			<speak chara="_Caravaggio">……?</speak>
+			<show chara="biankaDressSmileAhClose" position="right"/>
+			<speak chara="_Bianka">여, 역시 방법이 있나 보네요, 슈뢰딩거 박사 님!</speak>
+			<show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+			<show chara="schroSeriousClose" position="left"/>
+			<speak chara="_Schrodinger">있긴 하지만…… 그 방법엔 나름의 대가가 필요하다는 것이에요.</speak>
+			<show chara="schroSeriousClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">상관없어요! 이 사람을 살릴 수만 있다면요!</speak>
+			<show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+			<show chara="schroTalkClose" position="left"/>
+			<speak chara="_Schrodinger">……우선 진정부터 하라는 것이에요.</speak>
+			<show chara="schroSeriousClose" position="left"/>
+			<speak chara="_Schrodinger">이론적으로, 붕괴능을 제어해, 다시 활성화시켜, 이 「별을 얘기하는 자」의 몸 밖으로 내보내는 게 가능하다는 것이에요.</speak>
+			<show chara="schroTalkClose" position="left"/>
+			<speak chara="_Schrodinger">——지배의 결정을 얻은 지금이라면, 분명 가능하다는 것이에요.</speak>
+			<show chara="schroTalkClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="right"/>
+			<speak chara="_Bianka">……그럼 기다릴 게 뭐 있어요?</speak>
+			<show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+			<show chara="schroSeriousClose" position="left"/>
+			<speak chara="_Schrodinger">붕괴능이 허공에 사라지게 만드는 건 불가능하다는 것이에요. 일단 재활성화가 되면——모두의 안전을 위해, 결코 붕괴능이 흩어지게 둬선 안된다는 것이에요.</speak>
+			<show chara="schroSeriousClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">즉, 그 말은……</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="schroSeriousClose" position="left"/>
+			<speak chara="_Schrodinger">네, 듀란달의 성능 제한을 고려했을 때, 그 검의 사용자의 몸으로 옮길 수밖에 없다는 것이에요.</speak>
+			<show chara="schroTalkClose" position="left"/>
+			<speak chara="_Schrodinger">그러므로, 검의 소유자의 붕괴능 저항력이 「별을 얘기하는 자」 사나다 유키무라의 저항력을 넘어서지 못한다면——모든 노력은 물거품이 될 거라는 것이에요.</speak>
+			<show chara="schroSeriousClose" position="left"/>
+			<speak chara="_Schrodinger">제겐 그런 능력이 없다는 것이에요…… 하지만, 당신들은 발키리라는 것이에요. 여러분의 붕괴능에 대한 저항력은 여러분 스스로가 가장 잘 알고 있다는 것이에요.</speak>
+			<show chara="schroSeriousClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ritaVestHesitateClose" position="right"/>
+			<speak chara="_Rita">…………</speak>
+			<show chara="biankaDressHateClose" position="right"/>
+			<speak chara="_Bianka">………………</speak>
+			<show chara="biankaDressNormalClose" position="right"/>
+			<speak chara="_Bianka">슈뢰딩거 박사님, 전 괜찮을 거예요.</speak>
+			<show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+			<show chara="schroTalkClose" position="left"/>
+			<speak chara="_Schrodinger">……충동적으로 결정하는 건 좋지 않다는 것이에요, 비앙카 양.</speak>
+			<show chara="schroTalkClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="right"/>
+			<speak chara="_Bianka">그렇지 않아요.</speak>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">예전 어떤 의사가 제게 이런 얘기를 해줬어요——</speak>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">「비앙카, 너의 붕괴능에 대한 저항성은 네가 붕괴능에 노출된 만큼 증가할 것이다.」</speak>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">「만약 네가 발키리가 되기로 마음먹었다면, 이걸 기억해두거라.」</speak>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">「널 죽이지 못하는 것은, 모두 널 강하게 만들 뿐이다.」</speak>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">절 믿어주세요, 박사님. 전 이 정도 붕괴능으론 죽지 않는다고요.</speak>
+			<show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+			<show chara="schroSmileClose" position="left"/>
+			<speak chara="_Schrodinger">……</speak>
+			<show chara="ritaVestHesitateClose" position="left"/>
+			<speak chara="_Rita">비앙카 님……</speak>
+			<show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">난 괜찮아, 리타.</speak>
+			<show chara="biankaDressNormalClose" position="right"/>
+			<speak chara="_Bianka">이 정도 붕괴능은 아그라 요새에서도 견뎌봤어. 하룻밤 내내.</speak>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">이후 일주일 넘게 혼수상태에 빠졌지만……</speak>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">이번엔 분명 그렇게까지 긴 휴식은 필요 없을 거야.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="biankaDressSneerClose" position="center"/>
+			<speak chara="_Bianka">이리 와, 란달. 가자.</speak>
+			<goto goto="60" change="0"/>
+		</scene>
+		<scene id="60" background="CG25-2.jpg">
+			<bgm src="11_22_Tiger.mp3" status="start"></bgm>
+			<text>소녀는 두 손으로 대검을 모래 깊숙이 꽂았다.</text>
+			<text>무사의 몸 위로 돋아난 붕괴 결정이 서서히 녹아내리듯 사라져간다. 하지만 동시에 소녀의 주위엔 매서운 격랑이 일고 있었다.</text>
+			<text>그럼에도 소녀의 의지는 흔들리지 않았다.</text>
+			<text>발키리란, 선천적으로 타고났든, 후천적으로 개조되었든——붕괴능을 견디며 이를 제어하기 위해 선발된 전사들이다.</text>
+			<text>비록 피가 끓는 듯하고, 의식도 점차 흐려져가고 있었지만——</text>
+			<text>비앙카·아타지나는 여전히 「듀란달」의 자루를 움켜쥐고, 자신의 육체로 붕괴가 뿜어내는 거친 파도를 제어해나갔다.</text>
+			<text>그리고 그 거친 파도가 잦아질 때쯤……</text>
+			<text>머나먼 기억이, 마치 꿈처럼 현실에 침입했다.</text>
+			<goto goto="70" change="#ffffff"/>
+		</scene>
+		<scene id="70" background="CG25-3.jpg">
+			<bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<speak chara="_OttoDr">좋은 아침이구나.</speak>
+			<speak chara="_Bianka">조……좋은 아침이에요.</speak>
+			<speak chara="_OttoDr">어때? 병원 생활엔 좀 적응했나?</speak>
+			<speak chara="_Bianka">……입원 생활이 뭐 그렇죠. 적응하고 말게 뭐 있어요.</speak>
+			<speak chara="_Bianka">아, 맞다. 제 이름을 정했어요. 침대 머리맡에 있는 표에 적어뒀어요.</speak>
+			<goto goto="80" change="0"/>
+		</scene>
+		<scene id="80" background="bedSochi.jpg">
+			<bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<show chara="ottoDrTrickyClose" position="back"/>
+			<speak chara="_OttoDr">「비앙카·아타지나」……</speak>
+			<show chara="ottoDrNormalClose" position="back"/>
+			<speak chara="_OttoDr">축하한다. 오늘부턴 너도 이름을 가지게 됐구나.</speak>
+			<speak chara="_Bianka">……의사 선생님, 일찍 오셨는데, 몇 가지 검사할 게 있나요?</speak>
+			<show chara="ottoDrFoolishSmileClose" position="back"/>
+			<speak chara="_OttoDr">아, 아니다. 그냥 널 보러 왔단다.</speak>
+			<speak chara="_Bianka">……정말 한가해 보이시네요. 외과의사들은 과로사가 잦다던데?</speak>
+			<show chara="ottoDrFoolishSmileClose" position="back"/>
+			<speak chara="_OttoDr">하하, 아마 이 병원은 각 부서가 세세하게 나누어져 있어서 그럴지도?</speak>
+			<show chara="ottoDrKindClose" position="back"/>
+			<speak chara="_OttoDr">소아 신경외과——이름만 들어도 환자가 별로 없을 거 같지 않나?</speak>
+			<speak chara="_Bianka">……의사 선생님 일은 잘 몰라서.</speak>
+			<speak chara="_Bianka">그래서 말인데——전 언제쯤 침대를 벗어날 수 있을까요?</speak>
+			<speak chara="_Bianka">이제 제 몸엔 더 이상 불편한 곳이 없는 것 같은데.</speak>
+			<show chara="ottoDrNormalClose" position="back"/>
+			<speak chara="_OttoDr">……뭐, 곧 가능할 것 같은데.</speak>
+			<show chara="ottoDrFoolishSmileClose" position="back"/>
+			<speak chara="_OttoDr">우선 오늘 나와 같이 산책해 보는 건 어때? 별문제 없으면, 내일부턴 자유롭게 움직일 수 있게 해주마.</speak>
+			<speak chara="_Bianka">정말요?</speak>
+			<show chara="ottoDrKindClose" position="back"/>
+			<speak chara="_OttoDr">물론 정말이지.</speak>
+			<show chara="ottoDrTrickyClose" position="back"/>
+			<speak chara="_OttoDr" remark="next">자——「매일 사과 한 알이면 의사가 필요 없다.」</speak>
+			<remark post="custom-duriduri-25-1">
+				<p class="article-text-h">역자주:</p>
+				<p class="article-text">영국 속담. An apple a day keeps the doctor away.</p>
+			</remark>
+			<show chara="ottoDrNormalClose" position="back"/>
+			<speak chara="_OttoDr">그럼 사과를 다 먹고 나면 나가보자꾸나, 괜찮지?</speak>
+			<goto goto="90" clockwise="1"/>
+		</scene>
+		<scene id="90" background="beachAzores.jpg">
+			<bgm src="seaAndSky.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<show chara="ottoDrFoolishSmileClose" position="back"/>
+			<speak chara="_OttoDr" remark="next">우리가 있는 이 지역은 고대엔 「콜키스」라 불렸단다——그래, 그 신화 속 「아르고 호」의 목적지, 메데이아 공주가 이아손 왕자가 황금 양털을 훔치는 걸 도와준 곳이기도 하지.</speak>
+			<remark post="U2FsdGVkX1+M8qDQSorPucbUeTiQ">
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">콜키스(Κολχίς)는 캅카스 지역의 흑해 연안이다(오늘날엔 러시아, 조지아, 터키 등에 속해있다). 일반적으로 이 길고 좁은 해안은 고대 조지아 문화의 기원지로 알려져 있다.</p>
+			</remark>
+			<speak chara="_Bianka">……?</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">아, 이 얘기를 잘 모르나 보구나.</speak>
+			<show chara="ottoDrKindClose" position="back"/>
+			<speak chara="_OttoDr">간단히 얘기해 주마. 오랜 옛날 마법을 쓸 수 있는 공주가, 머나먼 곳에서 온 왕자에게 사랑에 빠져, 자기 나라의 보물인 「황금 양털」을 훔치는 데 도움을 줬지. 그리고 그 왕자와 공주는 배 위에서 결혼을 하였다——</speak>
+			<show chara="ottoDrTalkClose" position="back"/>
+			<speak chara="_OttoDr">——하지만 진짜 이야기는 여기서부터 시작하지.</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">「아르고 호」로 돌아가는 여정에서, 공주의 남동생이 보물을 돌려받으려 찾아왔다.</speak>
+			<speak chara="_OttoDr">공주는, 왕자를 위해, 무정히 그녀의 동생을 죽이고 말았지.</speak>
+			<speak chara="_OttoDr">그렇게 왕자는 황금 양털을 가지고 자기 나라로 갔다. 하지만 「황금 양털을 훔쳐 오면 왕위를 돌려주겠다」고 하던 찬탈자는 왕위를 포기하려 하지 않았다.</speak>
+			<speak chara="_OttoDr">이에 공주는 자신의 뛰어난 마법으로, 찬탈자가 「젊음을 되찾을 수 있는 마법의 솥」에 들어가도록 속여, 그를 산 채로 끓는 물에 넣어 죽이는데 성공한다.</speak>
+			<show chara="ottoDrTalkClose" position="back"/>
+			<speak chara="_OttoDr">하지만, 공주는 분명 왕자를 위해 어느 누구도 못할 일을 해냈음에도 불구하고, 왕자는 두려움 속에 그녀를 멀리하게 되었다.</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">왕자의 눈에, 이미 공주는 두 손이 피범벅인 채, 눈 하나 깜박이지 않고 사람을 죽이는 살인마처럼 보였기 때문이었지.</speak>
+			<speak chara="_OttoDr">실은, 왕자도 자신의 모험이 성공할 거라 기대하진 않았다——하지만 공주가 수단과 방법을 가리지 않고 모든 것을 실현시켰을 때, 그는 두려움뿐만 아니라 혐오감까지 느끼게 되었지.</speak>
+			<show chara="ottoDrTalkClose" position="back"/>
+			<speak chara="_OttoDr">하지만 공주가 잘못한 건 무엇일까?</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">「사랑」이란 이름의 독은 이미 오래전부터 그녀의 영혼을 빼앗아갔고, 그녀에게 남은 유일한 선택지는 어떤 대가를 치르더라도 자기가 사랑하는 사람을 지지하는 것뿐이었다——</speak>
+			<speak chara="_OttoDr">——자신의 손을 더럽히더라도, 온 세상의 모두를 적으로 두더라도.</speak>
+			<speak chara="_OttoDr">사랑이 그녀의 영혼을 빼앗아간 순간…… 그녀의 인생은 이미 비극으로 정해진 것과 다름없었지.</speak>
+			<speak chara="_OttoDr">……물론, 평생 짝사랑만 해온 볼썽사나운 이에 비하면, 그녀는 행복한 편이었지만.</speak>
+			<show chara="ottoDrTalkClose" position="back"/>
+			<speak chara="_OttoDr">하지만 결국 그녀는 자신의 유일한 행복의 증거——왕자와 그녀 사이에서 낳은 두 아이마저 스스로 죽이고 말았다.</speak>
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">신화는 정말 끔찍하네요. 근데 왜 이런 얘기를 해주시는 거예요?</speak>
+			<show chara="ottoDrNormalClose" position="back"/>
+			<speak chara="_OttoDr">왜냐하면…… 언젠가, 너도 비슷한 일을 경험하게 될 수도 있기 때문이지.</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">혹시나 그때가 온다면……</speak>
+			<show chara="ottoDrTalkClose" position="back"/>
+			<speak chara="_OttoDr">……그 공주를 동정하는 일이 없었으면 하구나.</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">그녀의 두 발은 이미 피비린내 가득한 늪 깊숙이 담가져 있다——뒤늦게 되돌아가려 한들, 똑같은 늪이 계속되겠지.</speak>
+			<speak chara="_Bianka">의사 선생님, 혹시…… 주변에 그런 사람이 있던 거예요?</speak>
+			<show chara="ottoDrTrickyClose" position="back"/>
+			<speak chara="_OttoDr">어이쿠, 정말 그렇다면, 이 세상이 너무 무서워지지 않을까?</speak>
+			<show chara="ottoDrKindClose" position="back"/>
+			<speak chara="_OttoDr">……비앙카.</speak>
+			<show chara="ottoDrColdClose" position="back"/>
+			<speak chara="_OttoDr">이 세상엔 각양각색의 사람들이, 각양각색의 이유로, 각양각색의 나쁜 짓을 저지르고 있지.</speak>
+			<show chara="ottoDrNormalClose" position="back"/>
+			<speak chara="_OttoDr">하지만 이것 하나만은 믿었으면 한다——결국 좋은 사람이 나쁜 사람보다는 조금 더 많다는 것을.</speak>
+			<show chara="ottoDrTalkClose" position="back"/>
+			<speak chara="_OttoDr">만약 그렇지 않았다면…… 인류는 수백수천 년도 전에 자멸하고 말았을 테니.</speak>
+			<speak chara="_Bianka">……</speak>
+			<hide position="back"></hide>
+			<text>금발의 의사는 바다를 향해 몸을 돌렸다.</text>
+			<text>그리고 그의 입에서 소녀에겐 이해하기 어려운 시의 구절이 읊어지기 시작했다.</text>
+			<speak chara="_OttoDr">「저기 무덤의 섬이, 침묵의 섬이 있다. 그곳엔 나의 청춘의 무덤도 있다. 나는 그곳으로 영원히 푸른 생명의 화관을 들고 가리라.」</speak>
+			<speak chara="_OttoDr">「이렇게 결심하고서, 배로 바다를 건넌다.」</speak>
+			<speak chara="_OttoDr">「그대는 내게 있어, 모든 무덤을 부수는 자. 오직 무덤이 있는 곳에만, 부활이 있을 수 있다.」</speak>
+			<end post="U2FsdGVkX18XUGkE4E5zBPLImNFI"/>
+		</scene>
+	</story>
+</data>

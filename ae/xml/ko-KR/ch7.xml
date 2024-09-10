@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<img>
+		<image src="newChapter.png" type="cg" />
+		<image src="londonStreet.jpg" type="background" />
+		<image src="londonStreet2.jpg" type="background" />
+		<image src="CG7-1.jpg" type="background" />
+		<image src="CG7-2.jpg" type="background" />
+		<image src="derryWall.jpg" type="background" />
+		<image src="doHisDuty.jpg" type="background" />
+		<image src="trafalgarSquare.jpg" type="background" />
+		<image src="gallery.jpg" type="background" />
+		<image src="storage.jpg" type="background" />
+		<image src="storage2.jpg" type="background" />
+		<image src="9_26_einNormalWinterClose.png" type="chara" />
+		<image src="9_27_einSmileWinterClose.png" type="chara" />
+		<image src="10_12_einFoolWinterClose.png" type="chara" />
+		<image src="9_26_einSeriousAhWinterClose.png" type="chara" />
+		<image src="9_26_einSeriousEmWinterClose.png" type="chara" />
+		<image src="8_30_einNormalWinterFar.png" type="chara" />
+		<image src="10_12_einSeriousAhWinterFar.png" type="chara" />
+		<image src="10_12_einSeriousEmWinterFar.png" type="chara" />
+		<image src="8_30_einSmileWinterFar.png" type="chara" />
+		<image src="10_12_einFoolWinterFar.png" type="chara" />
+		<image src="9_11_einNormalWinterClose-up.png" type="chara" />
+		<image src="9_11_einSmileWinterClose-up.png" type="chara" />
+		<image src="9_11_einSeriousAhWinterClose-up.png" type="chara" />
+		<image src="9_11_einSeriousEmWinterClose-up.png" type="chara" />
+		<image src="9_26_teslaAngryGlassWinterClose.png" type="chara" />
+		<image src="9_26_teslaEmbarraGlassWinterClose.png" type="chara" />
+		<image src="9_26_teslaBoringGlassWinterClose.png" type="chara" />
+		<image src="9_26_teslaSnickerGlassWinterClose.png" type="chara" />
+		<image src="9_26_teslaNormalGlassWinterClose.png" type="chara" />
+		<image src="10_12_teslaSmileGlassWinterClose.png" type="chara" />
+		<image src="9_26_teslaNormalGlassWinterFar.png" type="chara" />
+		<image src="9_26_teslaBoringGlassWinterFar.png" type="chara" />
+		<image src="9_26_teslaEmbarraGlassWinterFar.png" type="chara" />
+		<image src="10_12_teslaShameGlassWinterClose.png" type="chara" />
+		<image src="9_29_teslaStarGlassWinterClose.png" type="chara" />
+		<image src="10_12_teslaSnickerGlassWinterFar.png" type="chara" />
+		<image src="10_20_teslaBlackGlassWinterClose-up.png" type="chara" />
+		<image src="9_11_teslaNormalGlassWinterClose-up.png" type="chara" />
+		<image src="9_11_teslaBoringGlassWinterClose-up.png" type="chara" />
+		<image src="9_11_teslaEmbarraGlassWinterClose-up.png" type="chara" />
+		<image src="10_12_weltScaredWinterClose.png" type="chara" />
+		<image src="10_12_weltTiredWinterClose.png" type="chara" />
+		<image src="9_27_weltShameWinterClose.png" type="chara" />
+		<image src="9_26_weltSurpriseWinterClose.png" type="chara" />
+		<image src="9_26_weltNormalWinterClose.png" type="chara" />
+		<image src="9_04_weltNormalWinterFar.png" type="chara" />
+		<image src="9_04_weltShyWinterFar.png" type="chara" />
+		<image src="9_25_weltTiredWinterFar.png" type="chara" />
+		<image src="9_04_weltSurpriseWinterFar.png" type="chara" />
+		<image src="9_26_planckBlackClose-up.png" type="chara" />
+		<image src="10_20_staffGalleryNormalClose.png" type="chara" />
+		<image src="10_20_staffGallerySweatClose.png" type="chara" />
+		<image src="10_20_staffGallerySeriousClose.png" type="chara" />
+		<image src="10_20_staffGallerySmileClose.png" type="chara" />
+		<image src="10_20_staffGalleryBlackClose-up.png" type="chara" />
+		<image src="10_20_staffGallerySmileClose-up.png" type="chara" />
+		<image src="10_20_staffGallerySweatClose-up.png" type="chara" />
+		<image src="10_20_staffGalleryNormalClose-up.png" type="chara" />
+		<image src="10_20_staffGallerySeriousClose-up.png" type="chara" />
+		<image src="10_20_staffGalleryScareClose-up.png" type="chara" />
+	</img>
+	<characters>
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNoFace" src="" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNormalWinterClose" src="9_26_einNormalWinterClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSmileWinterClose" src="9_27_einSmileWinterClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einFoolWinterClose" src="10_12_einFoolWinterClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousAhWinterClose" src="9_26_einSeriousAhWinterClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousEmWinterClose" src="9_26_einSeriousEmWinterClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNormalWinterFar" src="8_30_einNormalWinterFar.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousAhWinterFar" src="10_12_einSeriousAhWinterFar.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousEmWinterFar" src="10_12_einSeriousEmWinterFar.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSmileWinterFar" src="8_30_einSmileWinterFar.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einFoolWinterFar" src="10_12_einFoolWinterFar.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNormalWinterClose-up" src="9_11_einNormalWinterClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSmileWinterClose-up" src="9_11_einSmileWinterClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousAhWinterClose-up" src="9_11_einSeriousAhWinterClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousEmWinterClose-up" src="9_11_einSeriousEmWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNoFace" src="" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaAngryGlassWinterClose" src="9_26_teslaAngryGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaEmbarraGlassWinterClose" src="9_26_teslaEmbarraGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaBoringGlassWinterClose" src="9_26_teslaBoringGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaSnickerGlassWinterClose" src="9_26_teslaSnickerGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNormalGlassWinterClose" src="9_26_teslaNormalGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaSmileGlassWinterClose" src="10_12_teslaSmileGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNormalGlassWinterFar" src="9_26_teslaNormalGlassWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaBoringGlassWinterFar" src="9_26_teslaBoringGlassWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaEmbarraGlassWinterFar" src="9_26_teslaEmbarraGlassWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaShameGlassWinterClose" src="10_12_teslaShameGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaStarGlassWinterClose" src="9_29_teslaStarGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaSnickerGlassWinterFar" src="10_12_teslaSnickerGlassWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaBlackGlassWinterClose-up" src="10_20_teslaBlackGlassWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNormalGlassWinterClose-up" src="9_11_teslaNormalGlassWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaBoringGlassWinterClose-up" src="9_11_teslaBoringGlassWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaShameGlassWinterClose-up" src="10_20_teslaShameGlassWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaEmbarraGlassWinterClose-up" src="9_11_teslaEmbarraGlassWinterClose-up.png" />
+		<character name="웰트" color="#ffffff" id="weltNoFace" src="" />
+		<character name="웰트" color="#ffffff" id="weltScaredWinterClose" src="10_12_weltScaredWinterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltTiredWinterClose" src="10_12_weltTiredWinterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltShameWinterClose" src="9_27_weltShameWinterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltSurpriseWinterClose" src="9_26_weltSurpriseWinterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltNormalWinterClose" src="9_26_weltNormalWinterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltNormalWinterFar" src="9_04_weltNormalWinterFar.png" />
+		<character name="웰트" color="#ffffff" id="weltShyWinterFar" src="9_04_weltShyWinterFar.png" />
+		<character name="웰트" color="#ffffff" id="weltTiredWinterFar" src="9_25_weltTiredWinterFar.png" />
+		<character name="웰트" color="#ffffff" id="weltSurpriseWinterFar" src="9_04_weltSurpriseWinterFar.png" />
+		<character name="플랑크" color="rgb(208,223,162)" id="planckSisterNoFace" src="" />
+		<character name="플랑크" color="rgb(208,223,162)" id="planckSisterBlackClose-up" src="9_26_planckBlackClose-up.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="nekoNoFace" src="" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGalleryNormalClose" src="10_20_staffGalleryNormalClose.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGallerySweatClose" src="10_20_staffGallerySweatClose.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGallerySeriousClose" src="10_20_staffGallerySeriousClose.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGallerySmileClose" src="10_20_staffGallerySmileClose.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGalleryBlackClose-up" src="10_20_staffGalleryBlackClose-up.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGallerySmileClose-up" src="10_20_staffGallerySmileClose-up.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGallerySweatClose-up" src="10_20_staffGallerySweatClose-up.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGalleryNormalClose-up" src="10_20_staffGalleryNormalClose-up.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGallerySeriousClose-up" src="10_20_staffGallerySeriousClose-up.png" />
+		<character name="관리인" color="rgb(165,150,153)" id="staffGalleryScareClose-up" src="10_20_staffGalleryScareClose-up.png" />
+	</characters>
+	<story title="1">
+		<scene id="0" background="bg.jpg">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg src="newChapter.png" bg="bg.jpg" />
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="londonStreet.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="start" />
+			<show chara="teslaAngryGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">둘이서 뭘 쭝얼쭝얼 이야기하는 거야!</speak>
+			<text>빨강 머리 트윈테일은 웰트를 째려보더니, 손에 잡혀있던 물건을 전부 던져버렸다.</text>
+			<show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose" position="center" />
+			<speak chara="weltNoFace">……위험하잖아!</speak>
+			<text>겨우겨우 날아온 물건을 전부 받아내고, 청년은 갑작스러움에 날뛰는 가슴을 진정시키며, 한숨을 쉬었다──</text>
+			<show chara="weltTiredWinterClose" position="center" />
+			<speak chara="weltNoFace">여긴 길가라고! 부딪쳐서 물건이라도 부서지면 어쩔거야?</speak>
+			<show chara="weltTiredWinterClose" position="center" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">그 정도 쯤은 네가 변상하라고.</speak>
+			<text>테슬라는 당연하단 듯 말한다.</text>
+			<show chara="teslaEmbarraGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltShameWinterClose" position="center" />
+			<speak chara="weltNoFace">……너무해.</speak>
+			<show chara="weltShameWinterClose" position="center" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">흥, 핀란드인이 저쪽에 남아서 거들고 있으니, 네가 남자로서의 의무를 이어가야지.</speak>
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">알겠어?</speak>
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">하아, 플랑크가 빈으로 안 갔더라면, 이런 귀찮은 일은 그 여자에게 떠넘겼을 건데.</speak>
+			<show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltTiredWinterClose" position="center" />
+			<speak chara="weltNoFace">(……알 리가 있을까. 남자의 의무라는 게 저 산처럼 사들인 물건을 나르는 거야?)</speak>
+			<speak chara="weltNoFace">(그렇다 한들, 자기가 「아무것도 아니야. 먼저 가.」라고 말했으면서, 갑자기 쫓아와 산 물건 전부를 내던지다니……)</speak>
+			<show chara="weltTiredWinterClose" position="center" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">아까 테슬라가 했던 말을 번역하면──우리가 조금 전까지 무슨 얘기를 했냐고 묻고 있는 겁니다.</speak>
+			<text>혼자 선두로 가고 있던 아인슈타인이, 기지개를 켜며 돌아보지도 않고 설명한다.</text>
+			<show chara="einNormalWinterClose" position="right" opacity="0.7" />
+			<show chara="weltScaredWinterClose" position="center" />
+			<speak chara="weltNoFace">……뭐?</speak>
+			<speak chara="weltNoFace">……그, 그런 의미였어?</speak>
+			<show chara="weltScaredWinterClose" position="center" opacity="0.7" />
+			<show chara="teslaAngryGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……잠깐, 난 그렇게까지 삐뚤어지진 않았다고!</speak>
+			<show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">그러니까, 북아일랜드의 역사를 잘 아는 아인이 이것저것 가르쳐줬다, 그렇게 말하면 됩니다──</speak>
+			<text>빨강 머리 트윈테일의 불만에 신경 쓰지 않고, 천연 파마 소녀는 멋대로 이야기를 이어간다──</text>
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">──켈트 문명은 어찌하여 앵글로 색슨 문명에게 침식당했는지를 설명했지요.</speak>
+			<speak chara="einNoFace">……스코틀랜드, 웨일스, 아일랜드 각각의 구별에 따라──</speak>
+			<show chara="einSmileWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">뭐야……</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" />
+			<text>아인슈타인과 웰트의 「비밀 이야기」가 별거 아닌 걸로 들려, 테슬라의 얼굴은 금방 밝아졌다.</text>
+			<speak chara="teslaNoFace">전에 와본 적이 있다고 들었는데, 거기가 여기 근처야?</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">예. 그때는 비행기 티켓이 안 구해져, 배로 뉴욕에 가야 됐죠. 그 도중에 일어난 일입니다.</speak>
+			<show chara="einSmileWinterClose" position="right" opacity="0.7" />
+			<show chara="weltNormalWinterClose" position="center" />
+			<speak chara="weltNoFace">배로?</speak>
+			<show chara="weltNormalWinterClose" position="center" opacity="0.7" />
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">예. 처음으로 원정을 나가서……아주 재밌었습니다. 여정은 길었지만.</speak>
+			<show chara="einSmileWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">호오……얼마나 된 이야기야? 20년 정도 전에?</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose" position="center" />
+			<speak chara="weltNoFace">……뭐?</speak>
+			<show chara="weltScaredWinterClose" position="center" opacity="0.7" />
+			<show chara="einFoolWinterClose" position="right" />
+			<speak chara="einNoFace">……</speak>
+			<speak chara="einNoFace">테슬라, 9년을 10년이라고 말하는 실수는 그나마 나은데……</speak>
+			<speak chara="einNoFace">20년도 전 일리가 없잖습니까……대체 저를 몇 살이라 생각하는 건가요……</speak>
+			<goto goto="15" change="#000000" />
+		</scene>
+		<scene id="15" background="londonStreet2.jpg">
+			<bgm src="10_20_londonderry_b.mp3" status="start" />
+			<show chara="planckSisterBlackClose-up" position="center" />
+			<speak chara="planckSisterNoFace">배의 행로를 보니까, 오늘은 여기서 1박이 되겠네──그러고 나서 대서양을 건널 것 같아.</speak>
+			<speak chara="planckSisterNoFace">얼마 없는 육지에서의 자유 시간이란다──뭐 같이 놀고 싶은 건 없니?</speak>
+			<speak chara="einNoFace">……교수, 어째서 당신이 더 순진하고 애 같습니까.</speak>
+			<speak chara="einNoFace">이렇게 시간을 낭비하는 것보다, 저는 양지바른 곳을 찾아서 책을 읽는 쪽이 훨씬 좋다고 생각합니다만…….</speak>
+			<speak chara="planckSisterNoFace">리제를 쨩, 언제나 그렇게 틀어박혀 살아선 안 돼……</speak>
+			<speak chara="planckSisterNoFace">오늘은 함께 왕창 노는 거야!</speak>
+			<speak chara="planckSisterNoFace">……그럼, 성벽이라도 보러 갈까!</speak>
+			<goto goto="17" change="#000000" />
+		</scene>
+		<scene id="17" background="londonStreet.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="start" />
+			<show chara="einFoolWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">그런 세세한 일까지 잘도 똑똑히 기억하는구나.</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">난……7, 8살 때 할아버지가 이곳저곳 데리고 다녔는데, 이젠 거의 기억 안 나.</speak>
+			<speak chara="teslaNoFace">뭐, 어디였든 간에 크로아티아 국내겠지만. 몹시 황폐했지. 재미도 없고.</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSeriousAhWinterClose" position="right" />
+			<speak chara="einNoFace">아뇨, 저도 어린 시절은 그렇게까지 기억나지 않아요. 이 기억이 남았던 것은, 단순한 우연입니다. 그리고 정말 작은 단편에 지나지 않아요.</speak>
+			<show chara="einSeriousEmWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">그래?</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">단지, 어떤 지역에 흥미를 가져, 관련 자료를 구석구석 조사하는 건 좋아합니다. 그 땅의 독특한 풍물도 자세하게 알게 되거든요.</speak>
+			<show chara="einNormalWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……이론 물리학자의 집념이란, 정말로 무섭네.</speak>
+			<show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">실험 물리학자들이, 무언가에 관한 실험으로 지붕에 구멍을 내는 것보다는 낫다고 생각합니다만.</speak>
+			<show chara="einSmileWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">으으윽!</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einFoolWinterClose" position="right" />
+			<speak chara="einNoFace">실험 물리학자들이, 뭔가에 홀려 지구를 파괴하려 하는 것보다 건전합니다.</speak>
+			<show chara="einFoolWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaAngryGlassWinterClose" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">……심해졌잖아!</speak>
+			<show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7" />
+			<text article="1">
+				<p class="article-text">서기 1955년 10월 다섯째 주의 주말, 여자 둘과 남자 하나의 세 젊은이는 서로 장난치며, 런던데리의 성벽──계몽 시대에, 유럽 내에서 제일의 철벽의 방어력을 자랑한 견고한 성벽을 오른다.</p>
+				<br />
+				<p class="article-text">이때, 아일랜드인들이 사는 이 생소한 도시에서, 인생 최대의 사건을 마주치게 될 거라, 그들은 생각지도 못했다.</p>
+			</text>
+			<goto goto="20" change="#ffffff" />
+		</scene>
+		<scene id="20" background="derryWall.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="einNormalWinterFar" position="center" />
+			<speak chara="einNoFace">런던데리의 명칭은 원래 데리(Derry)였습니다.</speak>
+			<speak chara="einNoFace">당연히, 인도의 델리와는 어떠한 관계도 없고, 아일랜드어 Daire, 즉 오크나무에서 따왔습니다.</speak>
+			<speak chara="einNoFace">후에 런던의 상회가 이 땅을 개척해, 도시명에 「런던」이 붙었습니다.</speak>
+			<show chara="einNormalWinterFar" position="center" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">개척시대의 사람은, 그렇게 이름을 붙이는 게 취향이었나……</speak>
+			<show chara="teslaBoringGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace" remark="next">뉴욕(New York)은 사람 이름에서 왔고, 로드아일랜드(RhodeIsland)처럼 유럽의 지명을 그대로 쓴 곳도 적지 않네.</speak>
+			<remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">로드아일랜드는 미국 독립 초기의 13개 주 중 하나로, 정식으로는 「로드아일랜드 및 프로비던스 플랜테이션 주」(State of Rhode Islandand Providence Plantations), 로드아일랜드의 이름은 그리스 로도스 섬으로부터 따왔다(Ρόδος).</p>
+				<p class="article-text">주도 프로비던스는 브라운대의 소재지이자, 유명한 소설가로, 크툴루 신화의 창시자인 하워드 필립스 러브크래프트(Howard Phillips Lovecraft, 1890~1937)의 고향.</p>
+			</remark>
+			<show chara="teslaBoringGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="einNormalWinterFar" position="center" />
+			<speak chara="einNoFace">런던인이 개척한 도시니까요.</speak>
+			<text>옆에서 덧붙이는 테슬라에겐 아랑곳하지 않고, 아인슈타인은 거침없이 계속해서 설명을 이어간다.</text>
+			<speak chara="einNoFace">……도시의 위치 선택부터 중심부 설계까지, 어느 것이나 고심해서 런던을 본뜨고 있습니다.</speak>
+			<speak chara="einNoFace" remark="next">주된 차이는……리버 포일의 수질이 템즈 강보다 깨끗하단 점이겠죠.</speak>
+			<remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">리버 포일(River Foyle)은 런던데리의 젖줄인 강으로, 수질은 맑고, 생물 다양성도 풍부하다.</p>
+				<p class="article-text">런던데리는 이 강에서 하구에 걸쳐 설계되어 있다……설계자는 고심해 런던과 템스 강의 위치를 본떴다.</p>
+			</remark>
+			<speak chara="einNoFace">런던의 성벽과 비슷하게, 데리의 성벽도 사각형 구조에 가까워요. 이건 유럽의 도시에서도 상당히 드뭅니다.</speak>
+			<speak chara="einNoFace">물론, 런던에 비해 여기 성문 이름은 매우 대충 지어졌습니다. 예를 들어 우리 앞에 있는 저 문은 「쉽 키 게이트」(Ship quay Gate), 원양항해를 위한 선착장을 면하고 있었기 때문입니다.</speak>
+			<speak chara="einNoFace">비슷하게, 그 외에도 「페리 키 게이트」(Ferry quay Gate), 「비숍 게이트」(Bishop's Gate), 「부쳐 게이트」(Butcher's Gate)가 동서남북에 각각 있습니다.</speak>
+			<speak chara="einNoFace">데리는 유로파 역사에서 몇 없는 축성 이래 한 번도 함락된 적이 없는 「메이든 캐슬」 중 하나로, 과거 1689년에서 105일이 넘게 포위되었지만, 버텨냈습니다.</speak>
+			<show chara="einNormalWinterFar" position="center" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">그 이야긴……여기가 단순히 너무 변두리라 그랬던 거 아니었어?</speak>
+			<text>트윈테일은 생각한 것을 그대로 말한다.</text>
+			<show chara="teslaBoringGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="einSeriousAhWinterFar" position="center" />
+			<speak chara="einNoFace">아뇨. 결코, 그렇지 않습니다.</speak>
+			<speak chara="einNoFace">당시, 여긴 브리튼 본토와 아메리카 식민지를 잇는 요충지로서, 많은 아일랜드인이 여기를 지나 신대륙으로 떠났거든요.</speak>
+			<show chara="einSeriousEmWinterFar" position="center" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">……</speak>
+			<show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="weltShyWinterFar" position="right" />
+			<speak chara="weltNoFace">그런 역사가 있었구나……</speak>
+			<speak chara="weltNoFace">계속 아일랜드에 흥미를 가졌던 거야?</speak>
+			<show chara="weltShyWinterFar" position="right" opacity="0.7" />
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">아, 사실은 전부 여기서부터 시작됐어요……이 특별한 도시에서……</speak>
+			<speak chara="einNoFace">어떤 문화의 아름다움을 깨달으면, 자연스레 그걸 더 파고들고 싶게 되는 충동.</speak>
+			<speak chara="einNoFace">아일랜드는 제게 있어 그런 존재입니다. 누군가에게 있어서의 인도와 비슷하려나요?</speak>
+			<show chara="einSmileWinterFar" position="center" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">……</speak>
+			<show chara="teslaEmbarraGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">확실히, 나는 인도 철학에 관한 책을 많이 읽었어.</speak>
+			<speak chara="teslaNoFace">단, 너완 다르게, 내가 완전히 인도 문화를 좋아하게 될 일은 없을 거지만.</speak>
+			<show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="weltNormalWinterFar" position="right" />
+			<speak chara="weltNoFace">……?</speak>
+			<show chara="weltNormalWinterFar" position="right" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">모르겠어? 저렇게 사람들을 네 가지 계급으로 나누는 카스트 제도, 박살나는 편이 좋아.</speak>
+			<show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="einFoolWinterFar" position="center" />
+			<speak chara="einNoFace">아아……저는 그런 의미로 말한게 아닙니다만……</speak>
+			<show chara="einFoolWinterFar" position="center" opacity="0.7" />
+			<show chara="weltTiredWinterFar" position="right" />
+			<speak chara="weltNoFace">뭐……그치. 테슬라도 너무 민감하게 받아들이진 마.</speak>
+			<show chara="weltNormalWinterFar" position="right" />
+			<speak chara="weltNoFace">원래 주제로 돌아가서, 우리는 실마리를 찾으러 왔잖아. 정말로 있는 걸까?</speak>
+			<show chara="weltNormalWinterFar" position="right" opacity="0.7" />
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">물론이죠.</speak>
+			<show chara="einSeriousAhWinterFar" position="center" />
+			<bgm src="10_20_londonderry_p.mp3" status="stop" />
+			<speak chara="einNoFace">아마 이 앞일 텐데……</speak>
+			<show chara="einSeriousAhWinterClose" position="center" />
+			<speak chara="einNoFace">여기다!</speak>
+			<goto goto="25" change="0" />
+		</scene>
+		<scene id="25" background="CG7-1.jpg">
+			<bgm src="themeEin.mp3" status="start" />
+			<text>세 사람이 1.6km에 달하는 데리의 성벽을 정처없이 떠돌아 다니던 도중,</text>
+			<text>갑자기, 천연 파마 소녀가 한 포대 앞에 멈췄다. 입에는 어디서 꺼냈는지 모를 손전등을 물고 있다.</text>
+			<speak chara="weltNoFace">뭐, 뭐야 갑자기……</speak>
+			<speak chara="teslaNoFace">그래 뭐야, 여기에 뭔가 있기라도 한 거야?</speak>
+			<text>웰트와 테슬라는, 여전히 상황이 이해가 안 된다.</text>
+			<speak chara="einNoFace">이 포대는 현재 24대밖에 남아있지 않아요.</speak>
+			<speak chara="teslaNoFace">호오……그래서 이 한 대의 어디가 특별한데?</speak>
+			<text>빨강 머리 트윈테일은 어깨를 으쓱하며, 의미를 모르겠다는 기색을 드러낸다.</text>
+			<speak chara="einNoFace">딱히 특별한 건 없습니다.</speak>
+			<speak chara="teslaNoFace">뭐?</speak>
+			<speak chara="einNoFace">단, 바늘이 흔들리고 있어요.</speak>
+			<text>아인슈타인은 주머니에서 국방색 계기 장치를 꺼냈다.</text>
+			<speak chara="teslaNoFace" remark="next">이건……가이거 카운터?</speak>
+			<remark>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">가이거 카운터(Geiger counter) 또는 가이거 뮐러 카운터(Geiger-Müler counter), 일종의 방사선 계측기, 통상은 알파선(질량이 큰 입자선)과 베타선(질량이 작은 입자선), 그 외에 약간의 감마선(고에너지 전자기파) 및 X선의 검출에 사용된다.</p>
+			</remark>
+			<speak chara="teslaNoFace">이거 방사능 물질이야!?</speak>
+			<speak chara="einNoFace">아뇨……</speak>
+			<speak chara="einNoFace">이건 이전에, 제가 에이다에게 개조를 부탁한 붕괴 에너지 측정기입니다.</speak>
+			<speak chara="einNoFace">아주 모던하고 멋진 디자인이죠?</speak>
+			<speak chara="teslaNoFace">모던!?</speak>
+			<speak chara="teslaNoFace">무슨 센스가 그러냐……</speak>
+			<text>빨강 머리 트윈테일은 천연 파마 소녀의 취향에 코웃음 쳤다.</text>
+			<speak chara="weltNoFace">응……?</speak>
+			<speak chara="weltNoFace">에이다가 누구야?</speak>
+			<speak chara="teslaNoFace">조수야 조수. 핀란드인과 큰 차이 없어.</speak>
+			<speak chara="teslaNoFace">그것보다, 일단 숨겨진 정보를 찾자.</speak>
+			<speak chara="einNoFace">그러죠.</speak>
+			<text>천연 파마 소녀는 홈즈가 생각에 잠길 때처럼, 그대로 손을 모은다.</text>
+			<speak chara="einNoFace">이제부터가 시작입니다.</speak>
+			<goto goto="33" change="#ffffff" />
+		</scene>
+		<scene id="33" background="CG7-1.jpg">
+			<bgm src="themeEin.mp3" status="continue" />
+			<speak chara="einNoFace">여기다.</speak>
+			<text>어느새인가 지면에 엎드렸던 천연 파마 소녀가 손가락으로 가리킨다. 그녀의 손가락이 향하는 곳으로 시선을 옮기자, 거기에는 부자연스러운 색깔의 아스팔트가 있었다.</text>
+			<text>아인슈타인은 주변을 둘러봐 사방에 사람이 없는 것을 확인하고, 슥 하고 나이프를 꺼내 포신 주변을 깎아냈다.</text>
+			<text>그러자, 거기에서 은색 글자가 또렷하게 드러났다.</text>
+			<text article="1">
+				<p class="article-text" style="color:#EDEDED;font-style:italic;">「죄없는 여왕은 두 눈이 가려졌다」</p>
+				<br />
+				<p class="article-text" style="color:#EDEDED;font-style:italic;">──H. A</p>
+			</text>
+			<goto goto="34" change="0" />
+		</scene>
+		<scene id="34" background="derryWall.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="start" />
+			<show chara="weltSurpriseWinterClose" position="right" />
+			<speak chara="weltNoFace">여왕? 영국사의 누구지?</speak>
+			<show chara="weltSurpriseWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">근데, 두 눈이 가려진 여왕 같은 게 있나……</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose" position="right" />
+			<speak chara="weltNoFace">으~음, 무지나 우둔함을 의미하는 건가……?</speak>
+			<show chara="weltSurpriseWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">아, 그런가……</speak>
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace" remark="next">이거 은유네. 그렇다면 「세례자 요한」이나 「마리 앙투아네트」를 가리키는 거 아냐?</speak>
+			<remark post="U2FsdGVkX19Bg4sTQmgcZy8IrP4i">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">두 사람 모두 참수되고 죽은 인물.</p>
+				<p class="article-text">세례자 요한의 죽음은, 오스카 와일드(Oscar Wilde, 1854~1900)의 『살로메』에서 무엇보다도 탐미적으로 묘사되어 상당한 기묘함을 자아낸다.</p>
+			</remark>
+			<show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose" position="right" />
+			<speak chara="weltNoFace">세례자 요한? 마리 앙투아네트?</speak>
+			<show chara="weltSurpriseWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">읏……그냥 대충 말한 거야, 대충. 그러니까, 신경 쓰지 마. 잊어버려.</speak>
+			<speak chara="teslaNoFace">그리고 미리 말해두는데, 나는 오스카 와일드 같은 탐미주의자가 아냐.</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltTiredWinterClose" position="right" />
+			<speak chara="weltNoFace">예이 예이……하아, 전혀 모르겠네. 혼란스럽다.</speak>
+			<show chara="weltTiredWinterClose" position="right" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="center" />
+			<speak chara="einNoFace">그러게요……응?</speak>
+			<text>둘이 머리를 싸매고 있던 중, 천연 파마 소녀는 뭔가가 번뜩였는지 손뼉을 쳤다.</text>
+			<speak chara="einNoFace" remark="next">『레이디 제인 그레이의 처형』</speak>
+			<remark>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">『레이디 제인 그레이의 처형』(The Execution of Lady Jane Grey)은 폴 들라로슈(PaulDelaroche, 1797～1865)의 유채화로, 영국 여왕 제인 그레이(Lady Jane Grey、1537～1554)가 16세 때 폐위되어, 처형당하는 역사의 일을 담고 있다.</p>
+			</remark>
+			<show chara="einNormalWinterClose" position="center" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">어?</speak>
+			<show chara="teslaStarGlassWinterClose" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">아……!</speak>
+			<speak chara="teslaNoFace">그러고 보니, 그런 그림이 있었지! 여왕 제인 그레이가 눈이 가려진 채, 사형집행인에게 처형되는 것을 그린 그림!</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSmileWinterClose" position="center" />
+			<speak chara="einNoFace">아무래도, 오늘 밤은 배에서 보내야 될 것 같군요.</speak>
+			<speak chara="einNoFace">내일은 런던 국립 미술관으로 갑시다.</speak>
+			<goto goto="40" change="#ffffff" />
+		</scene>
+		<scene id="40" background="trafalgarSquare.jpg">
+			<bgm src="10_20_PeerGynt.mp3" status="start" />
+			<text>다음날.</text>
+			<text>지하철 채링 크로스 역의 좁은 계단을 한걸음 한걸음 올라 밖으로 나오니, 제국의 상징이라 불리는 트라팔가 광장이 눈앞에 나타났다.</text>
+			<text>「태양이 지지 않는 나라」의 중요한 상징은, 겨울의 월요일에도 다양한 여행객들로 붐비고 있다.</text>
+			<speak chara="weltNoFace">여기가 런던의 중심인가……</speak>
+			<text>높게 솟은 넬슨 기념탑을 올려보며, 웰트는 관광객처럼 무의식중에 감탄하는 소리를 흘려냈다.</text>
+			<text>기념탑의 옆의 비문에는, 1805년 트라팔가 해전에서 왕립 해군을 이끌고 나폴레옹의 연합 함대를 무너뜨리며, 안타깝게도 나라를 위해 목숨을 잃은 잉글랜드의 영웅──호레이쇼 넬슨 제독을 위해 세웠다고 글씨가 써 있다.</text>
+			<text>더 읽어 나가니, 그의 지모는 범인을 능가하고, 용감하게 군대를 이끌어, 대서양, 나일, 코펜하겐, 트라팔가에서 전투를 겪어가며 잉글랜드를 연전연승으로 이끌다, 오른쪽 눈, 오른쪽 팔을 잃고, 결국 목숨까지 내놓게 되었다, 라고 적혀있었다.</text>
+			<text>영국인의 전부가 약삭빠른 외교관인 것은 아니다. 그들 중에는 근면하고, 더욱이 죽을 각오로 자신의 사명을 다한 사람도 있다. 단지 제국의 영광이 눈부셔서, 이 나라를 위해 공적을 올린 사람들이 가리어질 뿐이다.</text>
+			<text remark="next">「England expects every man to do his duty」(잉글랜드는 모든 이가 자신의 의무를 다할 것을 바란다)</text>
+			<remark post="U2FsdGVkX195jDOR70Cu55GKFR4g">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">「잉글랜드는 모든 이가 자신의 의무를 다할 것을 바란다」(England expects that every man will do his duty)는 영국 해군 중장 넬슨이 트라팔가 해전(1805년) 개시 직전에 기함 「HMS 빅토리」에서 내건 기신호로 만든 문장이다.</p>
+				<div class="article-pic" picsrc="re_doHisDuty.jpg" style="background-position:left;height:14.4rem;" />
+				<p class="article-text">참고로 한 회고록에 오류가 있어, 넬슨 기념주에는 잘못된 구절인 「England expects every man to do his duty」가 새겨져 있다.</p>
+			</remark>
+			<text>이걸 본 웰트는 플랑크와 비행기에서 한 대화를 떠올리며, 마음속으로 다시금 결의를 굳혔다.</text>
+			<show chara="weltSurpriseWinterFar" position="center" />
+			<speak chara="weltNoFace">응? 어라, 둘이 없어?</speak>
+			<show chara="weltSurpriseWinterFar" position="center" opacity="0.7" />
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">미술관은 북쪽입니다.</speak>
+			<text>아인슈타인은, 웰트의 소매를 꾸욱하고 당긴다.</text>
+			<show chara="einSeriousAhWinterFar" position="right" />
+			<speak chara="einNoFace">미아가 되지 마세요. 당신의 배낭에는 우리에게 있어, 엄청 중요한 물건이 들어있으니까요.</speak>
+			<show chara="einSeriousEmWinterFar" position="right" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">흥.</speak>
+			<text>아무래도 벌써 불쾌해진 테슬라가, 이 기회를 틈타 추가타를 날릴 모양이다.</text>
+			<show chara="teslaSnickerGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">하아~아, 이래서 철부지는 곤란해.</speak>
+			<speak chara="teslaNoFace" remark="next">애완 펭귄도 수산 시장에서 물고기를 사러 갈 만큼의 지능을 가졌는데……이 녀석은, 거의 틀림없이 미아가 될 거야.</speak>
+			<remark>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">일본 가고시마 현 시부시 시에 사는 펭귄 「라라」가 실제로 가능함을 보여 줬다.</p>
+			</remark>
+			<show chara="teslaSnickerGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="weltTiredWinterFar" position="center" />
+			<speak chara="weltNoFace">이봐……</speak>
+			<goto goto="45" change="#ffffff" />
+		</scene>
+		<scene id="45" background="trafalgarSquare.jpg">
+			<bgm src="10_20_PeerGynt.mp3" status="continue" />
+			<text article="1">
+				<p class="article-text">국립 미술관의 입구는 남쪽을 향하고 있었다. 입구를 받치는 코린트식 기둥은, 약간 풍화되어 검은빛을 띄며, 길가 쪽의 트라팔가 광장을 바라보고 있었다. 그 페르세폴리스의 알현실을 방불케하는 모형은, 과묵하게 대영제국의 오랜 영광을 말하는 것 같았다.</p>
+			</text>
+			<text article="1">
+				<p class="article-text">중후한 역사가 생명의 흙과 모래를 간직한 채, 차가운 건축물 안에 잠들어 있다. 이 독특한 압박감은 런던의 음울한 날씨를 더욱 돋보이게 하여, 민중들에게 「국가」나 「조직」의 이름 아래에 휘두른 폭력이, 얼마나 막강한지를 다시금 알려주고 있다.</p>
+			</text>
+			<text article="1">
+				<p class="article-text">그러한 폭력적인 조직에 맞설 때, 스파르타쿠스의 만용, 로베스피에르의 잔혹함, 벤자민 프랭클린의 지혜, 블라디미르 레닌의 의지, 이러한 기질 없다면 버티는 게 가능하긴 할까?</p>
+			</text>
+			<show chara="weltTiredWinterClose" position="center" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">좀! 기운 좀 내봐! 대영박물관만큼은 아니지만, 여기도 충분히 볼 가치가 있거든!</speak>
+			<text>웰트의 풀이 죽은 모습에, 테슬라가 힘껏 어깨를 두드린다.</text>
+			<show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSeriousAhWinterClose" position="right" />
+			<speak chara="einNoFace">테슬라가 이상한 소리를 해서 그렇습니다.</speak>
+			<text>맨 앞을 걷고 있던 아인슈타인은, 약간 불만스러운 듯 답한다.</text>
+			<show chara="einSeriousEmWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaAngryGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……어디가! 사실이잖아.</speak>
+			<show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">감정이란, 흥분과 억압의 복합체입니다.</speak>
+			<speak chara="einNoFace">스스로 다른 곳으로 유도해 놓고, 어째서 제대로 안 따라온다고 비난합니까.</speak>
+			<show chara="einNormalWinterClose" position="right" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……영문모를 철학 강의는 됐어.</speak>
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">정말, 조금도 안 귀엽다니까.</speak>
+			<show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">……웰트는 어떻게 생각하십니까?</speak>
+			<speak chara="einNoFace">흥분과 억압, 어느 쪽이 인간의 본질인가……「인류의 이성」으로서 어느 쪽이 주류일까?</speak>
+			<speak chara="einNoFace">아니면……미적 관점으로 봤을 때, 어느 쪽이 보다 「귀여운」 것일까?</speak>
+			<show chara="einNormalWinterClose" position="right" opacity="0.7" />
+			<show chara="weltNormalWinterClose" position="center" />
+			<speak chara="weltNoFace">……?</speak>
+			<text>아직도 풀이 죽어있는 청년은, 천연 파마 소녀의 질문이 전혀 귀에 들어오지 않았다.</text>
+			<show chara="weltShameWinterClose" position="center" />
+			<speak chara="weltNoFace">응, 아니……나는 물론……</speak>
+			<shake position="center" time="250" />
+			<speak chara="weltNoFace">여자애는, 어떻든 귀엽다고 생각해!</speak>
+			<shake position="center" time="250" />
+			<speak chara="weltNoFace">그래. 여자애는 정의야!!</speak>
+			<show chara="weltShameWinterClose" position="center" opacity="0.7" />
+			<show chara="teslaAngryGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……</speak>
+			<text>어째선지, 빨강 머리 트윈테일의 얼굴이 순간 빨개졌다.</text>
+			<show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">그렇습니까……</speak>
+			<text>천연 파마 소녀는, 빗나간 답을 개의치 않고, 이야기를 계속한다.</text>
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">웰트에게 「인간의 미」에 관한, 견해를 듣고 싶었는데, 방금 건 나름의 대답이란 것으로 해두죠.</speak>
+			<show chara="einSmileWinterClose" position="right" opacity="0.7" />
+			<show chara="weltTiredWinterClose" position="center" />
+			<speak chara="weltNoFace">……아아─, 그게.</speak>
+			<show chara="weltTiredWinterClose" position="center" opacity="0.7" />
+			<show chara="einFoolWinterClose" position="right" />
+			<speak chara="einNoFace">글러먹은 남자네요.</speak>
+			<bgm src="10_20_PeerGynt.mp3" status="stop" />
+			<goto goto="48" change="0" />
+		</scene>
+		<scene id="48" background="">
+			<sound src="hit man.mp3" />
+			<text>그녀는 힘을 넣어, 웰트에게 딱밤을 날렸다.</text>
+			<goto goto="50" change="#ffffff" />
+		</scene>
+		<scene id="50" background="gallery.jpg">
+			<bgm src="street.mp3" status="start" />
+			<show chara="staffGalleryNormalClose" position="left" />
+			<speak chara="nekoNoFace">정말 여러분 같은 연구자가 파손된 그림에 관심을 가질 줄은, 생각도 못 했습니다.</speak>
+			<text>국립 미술관의 뒤뜰에 있는 긴 복도에서, 관리인이 걸으면서 말한다.</text>
+			<text>배가 나온, 정수리 쪽이 약간 대머리인 뚱뚱한 중년의 손에는 열쇠 뭉치가 있다. 그의 걸음에 맞춰, 금속 열쇠가 맞부딪치고 있다.</text>
+			<speak chara="nekoNoFace">1928년 템스 강 홍수로 상당수의 수집품이 파손되어서, 구체적인 손실 정도는 아직도 확실한 통계가 안 나왔습니다.</speak>
+			<speak chara="nekoNoFace">한 가지 말할 수 있는 것은, 당신들이 찾는 그림이 그 파손된 수집품들 안에 있다는 것입니다.</speak>
+			<show chara="staffGalleryNormalClose" position="left" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">잠깐……「아직도 제대로 된 통계가 안 나왔다」고?</speak>
+			<text>상대의 이러한 말이, 테슬라가 가지고 있던 관료제의 이미지를 더욱 악화시켰다.</text>
+			<show chara="teslaNormalGlassWinterClose" position="center" opacity="0.7" />
+			<show chara="staffGallerySweatClose" position="left" />
+			<speak chara="nekoNoFace">예에……본관에 있는 명화들의 수가 2천 점이 넘어서……</speak>
+			<text>관리인은 어쩔 수 없다는 듯 손을 들어 올렸다.</text>
+			<speak chara="nekoNoFace">그림이 얼마나 파손됐는가, 그건 실제로 수복이 완료되고 나서야 평가를 낼 수 있습니다.</speak>
+			<speak chara="nekoNoFace">……한 전문가가 1년에 수복할 수 있는 건 2, 3장이겠죠. 아주 손이 많이 간다는 것을 부디 이해해 주십시오.</speak>
+			<show chara="staffGallerySweatClose" position="left" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">……그럼, 우리가 찾는 그림은 수복의 순서가 비교적 느린 작품?</speak>
+			<show chara="teslaNormalGlassWinterClose" position="center" opacity="0.7" />
+			<show chara="staffGalleryNormalClose" position="left" />
+			<speak chara="nekoNoFace">그렇습니다. 뭐가 어떻든 근대의 작품을, 옛 것보다 우선하긴 어려워서.</speak>
+			<speak chara="nekoNoFace">우리끼리의 이야기지만……그 유명한 터너, 그의 그림조차 아직 거의 수복되지 않았습니다.</speak>
+			<text>이렇게 미술품 수복에 관한 이야기를 하면서, 일행을 안내하던 뚱뚱한 남자가 오래된 창고의 문 앞에 이르러 멈춰 섰다.</text>
+			<speak chara="nekoNoFace">자 여기입니다. 안내하지요.</speak>
+			<show chara="teslaBoringGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">어……</speak>
+			<text>안까지 따라오려는 남자를 보고, 테슬라는 약간 표정을 일그러뜨린다.</text>
+			<show chara="teslaEmbarraGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">우리가 진행하는 건 보안이 필요한 연구라……</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="center" opacity="0.7" />
+			<show chara="staffGalleryNormalClose" position="left" />
+			<speak chara="nekoNoFace">알고 있습니다.</speak>
+			<text>뚱뚱한 남자는 동행하는 것을 양보하지 않는다.</text>
+			<show chara="staffGallerySeriousClose" position="left" />
+			<speak chara="nekoNoFace">여러분이 MI5던 MI6던 관계 없습니다.</speak>
+			<speak chara="nekoNoFace">혹은 다른 목적이 있던……</speak>
+			<speak chara="nekoNoFace">이 미술관에선, 어떠한 외부자도 감시의 눈에서 벗어나선 안됩니다.</speak>
+			<show chara="staffGallerySeriousClose" position="left" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">……</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="center" opacity="0.7" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">상관 없습니다.</speak>
+			<text>아인슈타인은 어깨를 으쓱이고, 신경 쓰지 않음을 보인다.</text>
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">함께 들어가죠.</speak>
+			<show chara="einSmileWinterClose" position="right" opacity="0.7" />
+			<show chara="staffGallerySmileClose" position="left" />
+			<speak chara="nekoNoFace">하하, 잘 됐네요.</speak>
+			<speak chara="nekoNoFace">이 아가씨는, 잘 이해해 주시네요.</speak>
+			<show chara="staffGallerySmileClose" position="left" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">쳇.</speak>
+			<speak chara="teslaNoFace">난 널 위해서……</speak>
+			<bgm src="street.mp3" status="stop" />
+			<show chara="teslaEmbarraGlassWinterClose" position="center" />
+			<shake position="center" time="250" />
+			<speak chara="teslaNoFace">!?</speak>
+			<show chara="teslaAngryGlassWinterClose" position="center" />
+			<speak chara="teslaNoFace">무무무, 뭐야 이 냄새!?</speak>
+			<goto goto="60" change="#ffffff" />
+		</scene>
+		<scene id="60" background="storage.jpg">
+			<bgm src="serenity.mp3" status="start" />
+			<text>두꺼운 문이 천천히 끼긱 소리를 내며 열리자, 문 보다도 더 그윽한 곰팡이 냄새가 모두의 코 속을 찌른다.</text>
+			<text>빈에서 오래된 술 창고에 들어가 본 적이 있던 테슬라도, 강렬한 곰팡이 냄새에 놀라버렸다.</text>
+			<show chara="staffGallerySweatClose" position="left" />
+			<speak chara="nekoNoFace">그림의 습기, 게다가 표면에는 적당량의 유분과 수분의 혼합물……특히 일정 온도를 유지하는 이 창고 안에는 바람도 통하지 않아서……</speak>
+			<text>뚱뚱한 남자는, 빗장을 걸고, 설명을 이어가며 자신 역시 콜록거린다.</text>
+			<speak chara="nekoNoFace">잘 생각해보면, 여기 가득한 공기는 아마 하수구 물의 성분과 큰 차이 없겠네요.</speak>
+			<show chara="staffGallerySweatClose" position="left" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……</speak>
+			<speak chara="teslaNoFace">
+				미안한데, 그런 기분 나쁜 비유는 그만둬 줘.</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="staffGalleryNormalClose" position="left" />
+			<speak chara="nekoNoFace">콜록콜록……</speak>
+			<speak chara="nekoNoFace">……『레이디 제인 그레이의 처형』이죠?</speak>
+			<show chara="staffGallerySmileClose" position="left" />
+			<speak chara="nekoNoFace">여기는 아직 색인 카드가 없는지라,</speak>
+			<speak chara="nekoNoFace">하나하나 찾아볼 수밖에 없습니다.</speak>
+			<text>뚱뚱한 남자는 미소 지으며, 농후한 곰팡이 냄새에 절망적인 진실을 더했다.</text>
+			<goto goto="65" change="#ffffff" />
+		</scene>
+		<scene id="65" background="storage.jpg">
+			<bgm src="serenity.mp3" status="continue" />
+			<text article="1">
+				<p class="article-text">홍수 피해로 인해 파손됐지만, 귀중한 문화재인 것에 변함은 없다. 뚱뚱한 남자는 구호를 외치며, 웰트와 호흡을 맞춰 작업을 한다. 액자는 역시 상당한 무게였다──신중하게 움직여서 하나하나 검사할 수밖에 없다. 이걸 수십 번이나 반복하며, 두 남자는 허리와 다리를 후들거리며, 땀 범벅이 된 이마를 닦는다.</p>
+			</text>
+			<goto goto="70" change="#ffffff" />
+		</scene>
+		<scene id="70" background="storage.jpg">
+			<bgm src="serenity.mp3" status="continue" />
+			<show chara="staffGalleryBlackClose-up" position="center" />
+			<text article="1">
+				<p class="article-text" style="color:rgb(165,150,153);font-style:italic;">『헤스페리데스의 정원에서 다툼의 사과를 고른 불화의 여신』……여기에도 터너의 그림이 있었나. 너덜더덜해져서……안타깝군……</p>
+			</text>
+			<goto goto="75" change="#ffffff" />
+		</scene>
+		<scene id="75" background="storage.jpg">
+			<bgm src="serenity.mp3" status="continue" />
+			<show chara="teslaBlackGlassWinterClose-up" position="center" />
+			<text article="1">
+				<p class="article-text" style="color:rgb(237,118,114);font-style:italic;">『폼페이와 헤르쿨라네움의 파괴』……이거 내 키보다 크잖아! 그러고 보니, 우리가 찾는 그림의 크기를 모르네, 어느 정도였더라.</p>
+			</text>
+			<goto goto="80" change="#ffffff" />
+		</scene>
+		<scene id="80" background="storage2.jpg">
+			<bgm src="serenity.mp3" status="continue" />
+			<show chara="teslaBlackGlassWinterClose-up" position="center" />
+			<text article="1">
+				<p class="article-text" style="color:rgb(237,118,114);font-style:italic;">……이 그림……상당히 크네. 둘만으로 괜찮아?</p>
+			</text>
+			<text article="1">
+				<p class="article-text">마치 축구 골대처럼 큰 작품의 차례가 되자, 빨강 머리 트윈테일이 도와줄까 하고 뛰어나왔다.</p>
+			</text>
+			<show chara="staffGalleryBlackClose-up" position="center" />
+			<text article="1">
+				<p class="article-text" style="color:rgb(165,150,153);font-style:italic;">아가씨, 잠깐 저쪽으로 가주세요……안 도와줘도 괜찮으니까.</p>
+			</text>
+			<text article="1">
+				<p class="article-text" style="color:rgb(165,150,153);font-style:italic;">좋습니다……셋에 합시다……하나, 둘──셋!</p>
+			</text>
+			<goto goto="85" change="#ffffff" />
+		</scene>
+		<scene id="85" background="storage2.jpg">
+			<bgm src="themeWelt.mp3" status="start" />
+			<text>창고의 문보다 큰 판자 모양의 물체가, 보관된 곳에서 천천히 들어 올려진다.</text>
+			<text>그림을 감싸고 있는 삼베에서 먼지가 날아올라, 비강을 짓궂게 간지럽힌다──손을 뗄 수 없는 웰트는 재채기를 참았지만, 근질거림에 얼굴이 비틀려 떨어져 나올 정도로 일그러진다.</text>
+			<show chara="staffGallerySmileClose-up" position="center" />
+			<speak chara="nekoNoFace">됐다……다음은 저보다 오래돼 보이는 이 넝마 천을 거둡시다……</speak>
+			<text>뚱뚱한 남자는 이마의 땀을 닦으며, 물과 먼지로 더러워진 커버를 신중하게 걷어낸다.</text>
+			<shake position="center" time="250" />
+			<speak chara="nekoNoFace">이……이건!?</speak>
+			<goto goto="90" change="#ffffff" />
+		</scene>
+		<scene id="90" background="CG7-2.jpg">
+			<bgm src="themeEin.mp3" status="start" />
+			<text>오래된 커버를 겨우겨우 벗기자, 상아처럼 빛나는 하얀색이 갑자기 네 사람의 눈에 들어왔다.</text>
+			<text>어두운 배경 속에, 하얀 드레스의 소녀가 눈을 가린 채, 사제인 노인을 통해 차가운 단두대로 이끌리고 있다.</text>
+			<text>틀림없이, 이건 『레이디 제인 그레이의 처형』──게다가 보존 상태는 더없이 양호.</text>
+			<speak chara="nekoNoFace">마……말도 안 돼……</speak>
+			<speak chara="nekoNoFace">이럴 리가……</speak>
+			<text>아마도 예술에 대한 식견이 높을 뚱뚱한 남자는, 턱이 떨어질 정도로 놀라고 있는 듯하다.</text>
+			<speak chara="nekoNoFace">아아 신이시여! 곰팡이 하나 없다니! 감사드립니다!!</speak>
+			<speak chara="teslaNoFace">이 그림……</speak>
+			<text>그보다도 다른 것에 신경 쓰인 트윈테일은 커다란 돋보기를 사용해 거대한 그림을 구석구석까지 조사한다.</text>
+			<speak chara="teslaNoFace">……서명의 위치도 같고……특별히 이상한 점은 없는데?</speak>
+			<speak chara="nekoNoFace">무슨……이 기적을 눈앞에 두고, 그 이상 뭘 바라고 있습니까?</speak>
+			<text>뚱뚱한 남자는, 테슬라가 찾는 것이 뭔지 이해하지 못 했다.</text>
+			<goto goto="100" change="0" />
+		</scene>
+		<scene id="100" background="storage2.jpg">
+			<bgm src="themeEin.mp3" status="continue" />
+			<show chara="teslaNormalGlassWinterClose-up" position="right" />
+			<speak chara="teslaNoFace">이 그림이 과거 어디에 걸려있었는지 알아?</speak>
+			<show chara="teslaNormalGlassWinterClose-up" position="right" opacity="0.7" />
+			<show chara="staffGallerySweatClose-up" position="left" />
+			<speak chara="nekoNoFace">아가씨, 그건……</speak>
+			<text>뚱뚱한 남자는 곤란하단 표정으로 손을 들고──</text>
+			<speak chara="nekoNoFace">1928년 홍수 때, 저는 아직 아무것도 모르는 학생이어서.</speak>
+			<show chara="staffGallerySweatClose-up" position="left" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose-up" position="right" />
+			<speak chara="teslaNoFace">……</speak>
+			<text>자신이 멍청한 질문을 했다는 것을 알고, 테슬라는 혀를 날름 내밀었다.</text>
+			<show chara="teslaBoringGlassWinterClose-up" position="right" />
+			<speak chara="teslaNoFace">단서가 부족하네.</speak>
+			<show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7" />
+			<show chara="staffGalleryNormalClose-up" position="left" />
+			<speak chara="nekoNoFace">단서?</speak>
+			<text>뚱뚱한 남자는, 뭐가 뭔지 전혀 모른다는 표정으로 갸우뚱했다.</text>
+			<show chara="staffGalleryNormalClose-up" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose-up" position="center" />
+			<speak chara="einNoFace">……제게 생각이 있습니다.</speak>
+			<text>아인슈타인은, 웰트의 가방에서 진공관 앰프같은 모양의 장치를 꺼냈다.</text>
+			<show chara="einSmileWinterClose-up" position="center" />
+			<speak chara="einNoFace">이걸로, 이 그림을 스캔해도, 되겠습니까?</speak>
+			<show chara="einSmileWinterClose-up" position="center" opacity="0.7" />
+			<show chara="teslaNormalGlassWinterClose-up" position="right" />
+			<speak chara="teslaNoFace">아……설마 그거……</speak>
+			<speak chara="teslaNoFace">……말도 안 돼.</speak>
+			<text>그 장치를 보고, 테슬라는 믿을 수 없단 표정으로 한 가지 가능성에 생각이 이르렀다.</text>
+			<show chara="teslaNormalGlassWinterClose-up" position="right" opacity="0.7" />
+			<show chara="staffGallerySeriousClose-up" position="left" />
+			<speak chara="nekoNoFace">음……그건……방사선 같은 것을 내는 건 아니지요?</speak>
+			<text>뚱뚱한 남자는 약간 경계하며, 수상쩍은 장치를 본다.</text>
+			<show chara="staffGallerySeriousClose-up" position="left" opacity="0.7" />
+			<show chara="einSmileWinterClose-up" position="center" />
+			<speak chara="einNoFace" remark="next">특정 주파수의 마이크로파입니다. 파괴력은 없어요.</speak>
+			<remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">양자론의 해석에 기초하면, 전자기파의 분자에 대한 영향력은 그 주파수(또는 파장)를 보고 결정한다. 주파수가 높은(혹은, 보다 파장이 짧은) 전자기파일수록 분자의 마이크로 결합을 바꾸는 능력을 가진다.</p>
+				<p class="article-text">일반적으로, 마이크로파는 적외선보다 긴 파장으로 이루어져 있으며, 그 주파수는 분자 그 자체를 바꾸기에는 한참은 모자라고, 물체는 마이크로파의 쬐여도 가열되는 것에 지나지 않는다──그 응용이 전자 레인지이다.</p>
+			</remark>
+			<speak chara="einNoFace">이건 희귀 원소의 활성을 재촉해, 혼합 상태를 원래대로 되돌리는 장치입니다.</speak>
+			<show chara="einSmileWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGalleryNormalClose-up" position="left" />
+			<speak chara="nekoNoFace">하아……</speak>
+			<text>뚱뚱한 남자는 이마를 문지르며 반응했다.</text>
+			<show chara="staffGalleryScareClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="nekoNoFace">기다리세요……당신 설마 이걸로, 이 그림에서 뭔가를 뽑아낼 생각이십니까!?</speak>
+			<show chara="staffGalleryScareClose-up" position="left" opacity="0.7" />
+			<show chara="einSmileWinterClose-up" position="center" />
+			<speak chara="einNoFace">그렇게 이해해도 좋습니다.</speak>
+			<show chara="einSmileWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGalleryScareClose-up" position="left" />
+			<speak chara="nekoNoFace">안 됩니다 안 됩니다! 그런 짓을 하면, 그림에 상처가 나잖습니까!?</speak>
+			<show chara="staffGalleryScareClose-up" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose-up" position="center" />
+			<speak chara="einNoFace">……그런 일은 없습니다.</speak>
+			<text>천연 파마 소녀는 손전등을 꺼내, 옆에서 그림의 표면을 비춘다.</text>
+			<speak chara="einNoFace">……</speak>
+			<show chara="einSeriousAhWinterClose-up" position="center" />
+			<speak chara="einNoFace">역시.</speak>
+			<show chara="einSeriousEmWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGalleryNormalClose-up" position="left" />
+			<speak chara="nekoNoFace">예?</speak>
+			<text>뚱뚱한 남자는, 아인슈타인이 말하려는 바를 이해하지 못했다.</text>
+			<show chara="staffGalleryNormalClose-up" position="left" opacity="0.7" />
+			<show chara="einSeriousAhWinterClose-up" position="center" />
+			<speak chara="einNoFace">보세요.</speak>
+			<text>소녀는 손전등의 각도를 유지하며 설명한다.</text>
+			<speak chara="einNoFace">그림 위에 얇은 막이 있습니다.</speak>
+			<show chara="einSeriousEmWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGalleryNormalClose-up" position="left" />
+			<speak chara="nekoNoFace">……아아……정착액인가?</speak>
+			<speak chara="nekoNoFace">……</speak>
+			<show chara="staffGallerySeriousClose-up" position="left" />
+			<speak chara="nekoNoFace">아니 달라, 정착액이라도 그림을 이렇게 완벽한 상태로 보존하는 건 불가능해.</speak>
+			<text>뚱뚱한 남자의 표정에서 곤혹한 기색이 점점 섞이기 시작한다. 자세히 보니, 얇은 막에서 약간의 금속광택이 눈에 들어온다.</text>
+			<speak chara="nekoNoFace">……이건……뭐지?</speak>
+			<speak chara="nekoNoFace">……이런 건, 본 적도 들은 적도 없어!</speak>
+			<show chara="staffGallerySeriousClose-up" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose-up" position="center" />
+			<speak chara="einNoFace">괜찮다면 지금 조사하고 싶군요.</speak>
+			<text>천연 파마 소녀는 품에 안긴 장치의 핸들을 흔든다.</text>
+			<show chara="einNormalWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGalleryScareClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="nekoNoFace">……말씀드린 대로, 그림에 상처를 내는 것은 허락 못 합니다!</speak>
+			<text>뚱뚱한 남자는 당황했다──</text>
+			<speak chara="nekoNoFace">그게 설령 고의가 아니여도, 상처를 낸 시점에서 인류에 대한 죄가 되기에!</speak>
+			<show chara="staffGalleryScareClose-up" position="left" opacity="0.7" />
+			<show chara="einNormalWinterClose-up" position="center" />
+			<speak chara="einNoFace">……그 말은 너무 과장됐습니다.</speak>
+			<speak chara="einNoFace">이 그림은……단지, 향후 다른 「정상적인」 그림처럼 손상되기 쉬워질 뿐입니다.</speak>
+			<show chara="einNormalWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGallerySeriousClose-up" position="left" />
+			<speak chara="nekoNoFace">……</speak>
+			<show chara="staffGallerySeriousClose-up" position="left" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose-up" position="right" />
+			<speak chara="teslaNoFace">이 물질은, 우리에게 너무나도 중요한 거야.</speak>
+			<speak chara="teslaNoFace">그림을 보호하는 데에만 쓰이기엔 어울리지 않을 정도로, 큰 가치가 있을 거야.</speak>
+			<show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7" />
+			<show chara="staffGallerySeriousClose-up" position="left" />
+			<speak chara="nekoNoFace">……</speak>
+			<show chara="staffGallerySeriousClose-up" position="left" opacity="0.7" />
+			<show chara="teslaEmbarraGlassWinterClose-up" position="right" />
+			<speak chara="teslaNoFace">허락해주지 않으면, 우리 조직이 다른 수단을 쓸지도 몰라.</speak>
+			<speak chara="teslaNoFace">귀에 거슬리는 소리지만……그땐 이 미술관 직원 전원이 책임을 지게 될 거야. 그런 건 나도 싫거든.</speak>
+			<show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7" />
+			<show chara="staffGallerySeriousClose-up" position="left" />
+			<speak chara="nekoNoFace">……</speak>
+			<speak chara="nekoNoFace">……하아.</speak>
+			<show chara="staffGallerySweatClose-up" position="left" />
+			<speak chara="nekoNoFace">아가씨, 저도 말이 안 통하는 사람은 아닙니다.</speak>
+			<speak chara="nekoNoFace">작품 자체가 「상처 없이」 끝나더라도, 단 하나, 확실하게 설명을 듣고 싶군요……</speak>
+			<show chara="staffGallerySeriousClose-up" position="left" />
+			<speak chara="nekoNoFace">그 막을 빼내는 일에, 대체 어떤 가치가 있단 건가요? 당 미술관은, 무슨 이유로 당신들의 앞뒤 없는 이해 못 할 행동에 찬동해야 하는지요?</speak>
+			<show chara="staffGallerySeriousClose-up" position="left" opacity="0.7" />
+			<show chara="einSeriousAhWinterClose-up" position="center" />
+			<speak chara="einNoFace">인류의 운명에 대한 예언을 이유로.</speak>
+			<text>천연 파마 소녀는, 전에 없을 정도로 서늘한 목소리로 말한다.</text>
+			<show chara="einSeriousAhWinterClose-up" position="center" opacity="0.7" />
+			<show chara="staffGalleryScareClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="nekoNoFace">……!?</speak>
+			<show chara="staffGalleryScareClose-up" position="left" opacity="0.7" />
+			<hide position="left" />
+			<hide position="right" />
+			<show chara="einSeriousEmWinterClose-up" position="center" />
+			<text>뚱뚱한 남자가 놀라움을 다 보이기도 전에, 아인슈타인은 손에 쥔 장치를 그림의 중앙에 들이댄다.</text>
+			<show chara="einSeriousAhWinterClose-up" position="center" />
+			<speak chara="einNoFace">혼강 추출, 개시.</speak>
+			<speak chara="einNoFace">전원, 귀를 막으세요.</speak>
+			<end post="U2FsdGVkX19TjZQmi9wqji9OWE3F" />
+		</scene>
+	</story>
+</data>

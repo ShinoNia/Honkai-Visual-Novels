@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000"/>
+		</scene>
+		<scene id="10" background="deepWater.jpg">
+			<bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+			<text>——며칠 후.</text>
+			<goto goto="20" change="0"/>
+		</scene>
+		<scene id="20" background="submarineCabinBlurDeep.jpg">
+			<bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+			<show chara="AliceSmileCloseE" position="left"/>
+			<speak chara="_Alice">여러분, 항로를 계산한 바에 따르면, 「칼레도니아호」는 카리브해를 지나, 곧 남미대륙 해역에 들어서게 될 겁니다.</speak>
+			<show chara="AliceSmileCloseE" position="left" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="right"/>
+			<speak chara="_Shakespeare">오, 좋은 소식이네!</speak>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">걸프만 해류는 소용돌이처럼 되어있어서, 좀 많이 돌아가야 했거든!</speak>
+			<show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+			<show chara="Officer3PClose" position="left"/>
+			<speak chara="_Officer3PNoName">불과 반나절 만에 연방 전체를 한 바퀴 돌 거리를 이동하다니…… 이 잠수함, 속도가 정말 엄청나네요.</speak>
+			<show chara="Officer3PClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualNormalClose" position="right"/>
+			<speak chara="_Shakespeare">헤헤, 이게 다 그 고속 해류 덕분이지——</speak>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">——절대적인 속도로만 따지면, 우리 배는 땅 위의 자전거보다도 느릴걸?</speak>
+			<show chara="shakesCasualConfidentClose" position="right"/>
+			<speak chara="_Shakespeare">아, 근데——네 이름이 「코투아」라고 했지——네 얘기에 따르면, 50년 전에 연방과 저 멀리 남쪽에 있는 나라 간에 짧은 접촉이 있었다고?</speak>
+			<show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+			<show chara="Officer3PClose" position="left"/>
+			<speak chara="_Officer3PKetuya">아…… 제가 어렸을 때, 할머니에게서 들은 얘기입니다.</speak>
+			<show chara="Officer3PClose" position="left"/>
+			<speak chara="_Officer3PKetuya">할머니께선, 머나먼 남쪽, 세상의 끝에 거대한 나라가 있다고 하셨어요. 할머니가 젊으셨을 때, 그곳의 상인들이 종종 사업을 위해 연방을 찾아오곤 했다고 합니다.</speak>
+			<show chara="Officer3PClose" position="left"/>
+			<speak chara="_Officer3PKetuya">하지만, 좋은 시기는 얼마 가지 못했습니다——아마도 문화적 차이 탓인지——그들 중 일부가 연방의 법률을 어겨, 재산을 압류당하고 추방되어 버렸죠.</speak>
+			<show chara="Officer3PClose" position="left"/>
+			<speak chara="_Officer3PKetuya">그 이후, 더 이상 남쪽 나라의 상인들은 더 이상 연방을 찾아오지 않게 되었습니다. 할머니께선 그 나라가 어쩌면 쇠락해버리지 않았을까라고 하셨죠.</speak>
+			<show chara="Officer3PClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">그럼…… 그 「남쪽 나라」가 아직 남아있을 가능성이 없진 않다는 거네요?</speak>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">그럴지도. 뭐가 어찌 됐든 중요한 점은 보석의 행방이 거기에 있을 가능성이 높다는 거야.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">아직 기억해?</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">사막 속의 우주 센터——이집트의 이곳에서 보석을 발견했지.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">열대 우림의 푸른 동굴——이건 유카탄 반도였고.</speak>
+			<show chara="shakesCasualEmbarrassedClose" position="left"/>
+			<speak chara="_Shakespeare">이제 남은 건, 「눈 속에서 피어난 꽃」, 「무대 위의 아이돌」, 「기울어진 석상이 있는 작은 섬들」……</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">……그리고 「화산과 설산에 둘러싸인 도시」가 되겠네.</speak>
+			<show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">혹시…… 그 도시가 어디에 있는지 알아낸 거야?</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="AliceShyCloseE" position="left"/>
+			<speak chara="_Alice">네…… 대도서관의 정보에 따르면, 눈으로 덮인 화산 세 개가 동시에 보였다는 묘사에 일치하는 도시는 단 한 개뿐입니다.</speak>
+			<show chara="AliceSmileCloseE" position="left"/>
+			<speak chara="_Alice">그곳은 여러분이 곧 도착하게 될 남미대륙에 있어요. 적도에 있는 고산도시——「키토」.</speak>
+			<show chara="AliceShyCloseE" position="left"/>
+			<speak chara="_Alice">슈뢰딩거 박사님의 얘기에 따르면, 다른 세계에선 이 도시가 「에콰도르 공화국」의 수도라고 하더군요.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare" remark="next">이 세계에 「적도」라는 단어를 이름으로 하는 나라가 그대로 존재할 가능성은 낮겠지. 하지만, 그 「미지의 남쪽 나라」를 찾게 된다면……</speak>
+			<remark post="U2FsdGVkX18OFrvF00I9p7sYzHxu">
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">「에콰도르(Ecuador)」는 스페인어로 「적도」를 의미한다.</p>
+			</remark>
+			<show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">……그 「키토」라는 도시도 무난하게 찾을 수 있을 거라는 거지?</speak>
+			<show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">맞아. 계속 정보를 모으다 보면, 길이 보일 거야.</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="AliceSurprisedCloseE" position="right"/>
+			<speak chara="_Alice">아, 얘기가 나와서 말인데…… 이제 수면 위로 부상하는 게 좋지 않을까요? 곧 「ABC 제도」에 이를 테니.</speak>
+			<show chara="AliceSurprisedCloseE" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……「ABC 제도」?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">별거 아냐, 그냥 재미없는 줄임말이니까. 올라가 보면 금방 알게 될 거야.</speak>
+			<show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">……?</speak>
+			<goto goto="30" clockwise="1"/>
+		</scene>
+		<scene id="30" background="landCuracao.jpg">
+			<bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">저 멀리 보이는 곳은 아루바(Aruba) 섬과 보나이러(Bonaire) 섬, 그리고 우리가 지금 서 있는 이 곳은 퀴라소(Curaçao) 섬이지.</speak>
+			<show chara="shakesCasualEmbarrassedClose" position="left"/>
+			<speak chara="_Shakespeare">이렇게, A, B, C.</speak>
+			<show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualSeriousClose" position="left"/>
+			<speak chara="_Shakespeare">얘기했지? 그냥 재미없는 줄임말일 뿐이라고, 다른 의미는 없어.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">뭐, 재미가 없는 건, 그 줄인 이름에 별 의미가 없는 탓이긴 한데.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">눈앞의 이 섬은, 탐색할 가치가 충분해——적어도 남미 대륙이 완전한 미개척지가 아니라는 걸 보여주니까.</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">……?</speak>
+			<show chara="ritaVestSmileClose" position="right"/>
+			<speak chara="_Rita">그건 이 섬에 「길」이 있어서 군요, 그렇죠?</speak>
+			<show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">맞아.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">다들 언제나 길이 있는 곳에서 생활을 했으니 너무나도 당연한 것이라 여길 수도 있겠지만…… 자연은 이런 인간이 세운 기반 시설을 결코 반기지 않지.</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">앗……</speak>
+			<show chara="biankaDressSmileAhClose" position="right"/>
+			<speak chara="_Bianka">다르게 말하면, 여기에 「인류」가 살았다는 거네! 그것도 많이!</speak>
+			<show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">그런 셈이야.</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">천천히 조사해 보자. 운이 좋다면, 바퀴 자국이나 발자국을 찾을 수도 있을 거야!</speak>
+			<goto goto="40" change="#ffffff"/>
+		</scene>
+		<scene id="40" background="CG19-1.jpg">
+			<bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">이건……</speak>
+			<speak chara="_Rita">꽤나 큰 발자국이네요. 향하는 방향이…… 앞의 언덕이 있는 곳이군요.</speak>
+			<speak chara="_Bianka">얼른 쫓아가자! 발자국이 아직 선명한 걸 보면, 아직 멀리 가지 못했을 거야!</speak>
+			<goto goto="50" clockwise="1"/>
+		</scene>
+		<scene id="50" background="roadGCuracao.jpg">
+			<bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+			<speak chara="_Bianka">발자국들이…… 여기서 멈춰 선 것 같은데……</speak>
+			<speak chara="_SwordDurandalQ">와! 저건 또 뭐야! 비앙카 님, 얼른 앞을 보세요! 고개 좀 들어봐요!</speak>
+			<speak chara="_Bianka">……고개를 들라고?</speak>
+			<goto goto="60" change="0"/>
+		</scene>
+		<scene id="60" background="roadStatueCuracao.jpg">
+			<bgm src="01_18_tango.mp3" status="start"></bgm>
+			<speak chara="_Bianka">이, 이건…… 조각상? 왠지 현대 양식인 것 같은데?</speak>
+			<speak chara="_SwordDurandalQ">하지만 자세히 보세요! 풍화가 상당히 진행되어 있어요!</speak>
+			<goto goto="70" change="0"/>
+		</scene>
+		<scene id="70" background="roadStatueCuracaoClose.jpg">
+			<bgm src="01_18_tango.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">……이거 네 「보석」이랑 상관있으려나?</speak>
+			<speak chara="_SwordDurandalQ">전혀 상관있을 거 같진 않은데요? 섬 주변이나 조각상이나 그때 본 「이미지」와는 완전 다르잖아요!</speak>
+			<speak chara="_SwordDurandalQ">뭐, 버려진 섬에 석상만 있으면, 보석이 막 묻혀있을 것만 같아요?</speak>
+			<speak chara="_Bianka">너 진짜 입방정이…… 내가 널 꽈배기처럼 만들 수 있을지, 없을지, 지금 한 번 알아볼래?</speak>
+			<speak chara="_SwordDurandalQ">사, 살려줘요! 사, 살인——아니, 살검——아니, 살검마다!</speak>
+			<goto goto="80" clockwise="1"/>
+		</scene>
+		<scene id="80" background="roadStatueCuracao.jpg">
+			<bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">……와.</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">……</speak>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">(잠깐…… 저 얼굴…… 어디선가 봤던 것 같은데?)</speak>
+			<show chara="biankaDressNormalClose" position="right"/>
+			<speak chara="_Bianka">조각상의 양식만 봐선, 딱히 란달의 보석이랑은 상관없어 보이는데——그 「남쪽 나라」가 남긴 유산이려나.</speak>
+			<show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+			<show chara="durandalWhite" position="left"/>
+			<speak chara="_SwordDurandalQ">일단 말해두지만, 이만큼이나 풍화되었다는 건, 매우 오래되었다는 거예요. 겨우 수십 년 전에 버려진 수준이 아니라.</speak>
+			<show chara="durandalWhite" position="left" opacity="0.8"/>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">정말? 조각상의 이목구비는 다 온전히 남아있는데?</speak>
+			<show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">……아뇨, 란달 말이 맞아요. 무언가에 칠해졌던 흔적이 희미하게 보이는 걸 봐서, 원래 색이 칠해져있던 것 같네요.</speak>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion"> 보세요, 도료의 품질도 무지 좋고, 쉽게 부식되는 석회암으로 만들어진 것도 아니에요——어쩌면 앞서 방문한 치첸이트사보다 훨씬 오래됐을 수도 있어요.</speak>
+			<show chara="champoSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">물론, 우리가 쫓고 있는 발자국과는 아무런 상관도 없겠지만——</speak>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">——분명, 굉장히 흥미로운 고고학 표본이긴 하네요.</speak>
+			<show chara="champoSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">……세상이 「표류자」 때문에 시공이 뒤죽박죽인데, 고고학이요? </speak>
+			<show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">훗, 오히려 재밌지 않나요? 예를 들어, 이 조각상의 복장은 상당히 강한 아시아적인 특색을 가지고 있네요——</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">——이렇게 생각해 볼 수도 있겠죠. 아주 오래전, 조각의 대가가 이 세계에 넘어왔다라든가.</speak>
+			<show chara="champoSweatyClose" position="left"/>
+			<speak chara="_Champollion">주변 원주민들과 말이 통하진 않았겠지만, 그 솜씨로 먹고 사며, 고향을 생각하며 조각을 만들어갔다거나……</speak>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">……어쩌면, 이곳에 떨어졌던 표류자의 모습이 조각된 것일 수도 있겠죠. 지혜로운 스승이었다거나, 용감한 전사였다거나, 어쨌든 사람들이 그녀를 기억할 수 있도록 말이죠.</speak>
+			<show chara="champoSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">……두 얘기가 완전 상반되는 것 같은데요?</speak>
+			<show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">맞아요. 하지만, 전부 가능성이 있는 일이죠, 그렇지 않나요?</speak>
+			<show chara="champoNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">……그래도 진실은 결국 하나인데.</speak>
+			<show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">하하, 진실 같은 게 정말로 존재할까요?</speak>
+			<show chara="champoSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressBiteClose" position="right"/>
+			<speak chara="_Bianka">스스로 「탐정」이라 하지 않았어요? 탐정의 좌우명은 「진실은 언제나 하나뿐」 아닌가요?!</speak>
+			<show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+			<show chara="champoSweatyClose" position="left"/>
+			<speak chara="_Champollion">어라, 화낼 필요는 없어요.</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">분명 탐정은 「진실은 언제나 하나뿐」이라 생각하죠——각종 사건들이 일어난 시점이 딱히 멀진 않으니.</speak>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">하지만 고고학자의 시점에서 보세요. 아주 오래전에 살았던 고대인이 있다 생각해 보죠——</speak>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">——음, 이름은 「아담」이라 하죠. 우리 할아버지 세대는 자신들의 먼 조상을 이렇게 부른듯 하니까요.</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">그럼 질문을 해보죠.</speak>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">그 「아담」이란 사람은 아이를 몇이나 가졌을까요? 형제는 몇이나? 뭘 먹는 걸 좋아했을까요? 무슨 취미가 있었을까요?</speak>
+			<show chara="champoSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">저기요, 전 그 사람이 누군지도 모르는데, 제게 물어본다 한들 어떻게 대답하겠어요?!</speak>
+			<show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">그렇죠. 맞는 말이에요. 우리는 「아담」에 대해 아는 게 전혀 없기에, 이에 대한 답을 하는 게 불가능해요.</speak>
+			<show chara="champoColdClose" position="left"/>
+			<speak chara="_Champollion">우리에게 있어, 아담이 자식을 몇이나 가지든, 형제가 몇이든, 무슨 음식을 좋아했든, 무슨 취미를 가졌든——이런 것들은 완전히 「인멸된 진실」이죠. 더 이상 답을 알 방법이 없는.</speak>
+			<show chara="champoColdClose" position="left"/>
+			<speak chara="_Champollion">이렇게 세상에는 답을 찾을 수 없는 질문들도 있어요.</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">생각해 보세요. 역사적으로 수천억 명의 사람들이 태어났죠. 그들 중 절대다수는 이 「아담」이라는 자처럼 우리에게 전혀 알려지지 않았고요.</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">그리고 이제는 완전히 인멸되어버린 그 「진실」에 대해——과연 그들은 존재했을까요? 존재하지 않았을까요?</speak>
+			<show chara="champoNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressBiteClose" position="right"/>
+			<speak chara="_Bianka">그…… 그야 당연히 존재했죠! 그냥 우리가 알 방법이 없을 뿐이잖아요!</speak>
+			<show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+			<show chara="champoSmileClose" position="left"/>
+			<speak chara="_Champollion">음, 당신 말이 틀린 건 아니에요. 하지만, 당신이 내린 결론은 이런 식으로도 표현할 수 있겠죠——</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">——「과거의 진실이 과거에 존재하는 건 필연이지만, 과거의 진실이 현재에도 존재하는 건 우연이다.」</speak>
+			<show chara="champoColdClose" position="left"/>
+			<speak chara="_Champollion">그리고, 우리 모두 과거가 아니라 현재에 살고 있죠. 종종 과거의 사실에 대해 「추리」하거나 「추측」하는 게 가능하기도 하지만,</speak>
+			<show chara="champoNormalClose" position="left"/>
+			<speak chara="_Champollion">이런 「추리」나 「추측」이 불가능한 건, 제겐 「없는 것」이나 다를 바 없어요.</speak>
+			<show chara="champoNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="right"/>
+			<speak chara="_Bianka">그, 그건 너무——</speak>
+			<show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">하지만, 나 같은 극작가로썬——</speak>
+			<show chara="shakesCasualQuestionClose" position="left"/>
+			<speak chara="_Shakespeare">——이 세상의 그 무엇보다 잔혹한 것은 「진실」들이 묻혀가는 게 아니라, 그걸 대체하는 「이야기」에 참신함이 없다는 것이라고.</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">얼른 가보자, 이 발자국들이 우리에게 「재미」를 줄지 「지루함」을 줄지 한 번 알아보자고!</speak>
+			<goto goto="90" clockwise="1"/>
+		</scene>
+		<scene id="90" background="black">
+			<bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+			<sound src="08_17_gun.mp3"/>
+			<shake position="all" time="250"></shake>
+			<speak chara="_SomeOneTalking">누가 감히 제3근위군의 뒤를 밟는 것이냐! 너희들은 포위되었다! 손들어!</speak>
+			<goto goto="100" change="0"/>
+		</scene>
+		<scene id="100" background="mountCuracao.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+			<show chara="soldierGarcilasoClose" position="left"/>
+			<speak chara="_incaSoldierGarcilasoNoName">손들어! 조사에 협조해라! 몸수색을 진행할 것이다!</speak>
+			<show chara="soldierGarcilasoClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">뭐? A급 발키리인 우리가 왜 너희들의 몸수색을 받아야 해?</speak>
+			<show chara="biankaDressShoutClose" position="right"/>
+			<speak chara="_Bianka">——제3근위군은 또 뭐야? 너네가 어디 나라인지부터 알려주고 말해!</speak>
+			<show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+			<show chara="soldierDeLaVegaClose" position="left"/>
+			<speak chara="_incaSoldierDeLaVegaNoName">우, 움직이지 마라! 조사에 협조해!</speak>
+			<show chara="soldierDeLaVegaClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">흥, 그런 깡통 속에 숨으면 스스로가 센 줄 아나?</speak>
+			<show chara="biankaDressShoutClose" position="right"/>
+			<speak chara="_Bianka">좋아, 란달, 본때를 보여주자!</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="rolandArmorHelmetClose" position="center"/>
+			<speak chara="_rolandIncaNoName">기다려!</speak>
+			<speak chara="_rolandIncaNoName">가르실라소, 데 라 베가, 물러나.</speak>
+			<hide position="center"></hide>
+			<show chara="soldierDeLaVegaClose" position="left"/>
+			<speak chara="_incaSoldierDeLaVegaNoName">윽…… 알겠습니다.</speak>
+			<show chara="soldierDeLaVegaClose" position="left" opacity="0.8"/>
+			<show chara="soldierGarcilasoClose" position="right"/>
+			<speak chara="_incaSoldierGarcilasoNoName">……분부대로.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="rolandArmorHelmetClose" position="center"/>
+			<speak chara="_rolandIncaNoName">방금 스스로를 「발키리」라 하신 거 맞습니까?</speak>
+			<show chara="rolandArmorHelmetClose" position="center"/>
+			<speak chara="_rolandIncaNoName">설마…… 「신화」 속의 그 발키리?</speak>
+			<speak chara="_SwordDurandalQ">(잠깐, 이 목소리, 그리고 몸에서 나오는 적외선 신호는——)</speak>
+			<shake position="all" time="250"></shake>
+			<speak chara="_SwordDurandalQ">롤랑 님? 롤랑 님, 맞죠?</speak>
+			<speak chara="_Bianka">……뭐?</speak>
+			<goto goto="110" change="0"/>
+		</scene>
+		<scene id="110" background="CG19-2.jpg">
+			<bgm src="peerGynt.mp3" status="start"></bgm>
+			<speak chara="_rolandIncaNoName">……</speak>
+			<speak chara="_rolandIncaNoName">네, 저는 롤랑·잉카라고 합니다. 잉카 공화국의 제3근위대장을 맡고 있죠.</speak>
+			<speak chara="_Roland">당신의 그 말하는 검…… 이름이 뭐죠?</speak>
+			<goto goto="120" change="0"/>
+		</scene>
+		<scene id="120" background="mountCuracao.jpg">
+			<bgm src="peerGynt.mp3" status="continue"></bgm>
+			<show chara="durandalClose" position="left"/>
+			<speak chara="_SwordDurandalQ">롤랑 님…… 절 못 알아보시는 거예요?</speak>
+			<show chara="durandalOpen" position="left"/>
+			<shake position="left" time="250"></shake>
+			<speak chara="_SwordDurandalQ">전 당신의 검이었어요! 「듀란달」이라고요!</speak>
+			<show chara="durandalOpen" position="left" opacity="0.8"/>
+			<show chara="rolandArmorEmbarrassClose" position="right"/>
+			<speak chara="_Roland">……그런 기억은 없는데. 혹시 같은 이름의 다른 사람으로 착각한 거 아닌가요?</speak>
+			<show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+			<show chara="durandalOutstretchOpen" position="left"/>
+			<speak chara="_SwordDurandalQ">어, 어떻게 그럴 수가 있어요? 제가 고철덩어리가 된다 해도 전——</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">실례했습니다, 우리 자율형 전투 기계가 심려를 끼쳤다면, 제가 대신해 사과드리도록 하겠습니다.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">(리타 씨, 번역 부탁할게.)</speak>
+			<show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestSquintClose" position="mostright"/>
+			<speak chara="_Rita">(문제없어요, 선장님.)</speak>
+			<show chara="ritaVestSquintClose" position="mostright" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">저는 「칼레도니아호」의 선장, 마리안·윌리엄·셰익스피어입니다. 여기는 제 선원들이고요.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">저희는 현재 전 세계를 돌며 항해를 하고 있습니다——유럽 대륙을 집어삼킨 한 폭군에 대항하기 위해 자원을 모으고 있죠.</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">——여러분도 「유럽」에서 기원한 언어를 쓰고 계시는데, 분명 유럽 대륙에 대해 뭔가 알고 있는 게 있으시겠죠?</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorQuestionClose" position="right"/>
+			<speak chara="_Roland">「유럽」……</speak>
+			<show chara="rolandArmorNormalClose" position="right"/>
+			<speak chara="_Roland">아, 바다 건너의 그 「유로파 대륙」을 얘기하는 건가요?</speak>
+			<show chara="rolandArmorSmileClose" position="right"/>
+			<speak chara="_Roland">그렇다는 건, 항해를 통해 적의 배후에서 기습 공격을 하기 위해서인가요?</speak>
+			<show chara="rolandArmorSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……배후요? 유럽에 가려면 항해를 통해 정면으로 갈 수밖에 없지 않나요?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorEmbarrassClose" position="right"/>
+			<speak chara="_Roland">……</speak>
+			<show chara="rolandArmorLaughClose" position="right"/>
+			<speak chara="_Roland">설마…… 당신들…… 「와카 터널」이 뭔지 모르시는 건가요?</speak>
+			<show chara="rolandArmorLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……못 들어봤어요. 그게 뭐예요？</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorLaughClose" position="right"/>
+			<speak chara="_Roland">하하…… 당신들 정말 멀리서 오셨나 보네요……</speak>
+			<show chara="rolandArmorEmbarrassClose" position="right"/>
+			<speak chara="_Roland">……미안해요, 무심코 웃음이 나왔네요. 용서해 주세요.</speak>
+			<show chara="rolandArmorSmileClose" position="right"/>
+			<speak chara="_Roland">간단히 말해, 지구 중심을 지나, 땅 반대편으로까지 이어진 통로에요.</speak>
+			<show chara="rolandArmorSeriousClose" position="right"/>
+			<speak chara="_Roland">그리고 우리 잉카 공화국이 세워진 이래, 한순간도 빠짐없이 철저하게 지켜져온 요새이기도 하죠.</speak>
+			<end post="U2FsdGVkX19FVR4ZxHuHZIEkijw4"/>
+		</scene>
+	</story>
+</data>
