@@ -24,11 +24,11 @@ jobs:
       run: sudo apt-get install zip -y
 
     - name: Create ZIP file from directory
-      run: zip -r ${{ matrix.directory }}-${{ github.event.inputs.version }}.zip ${{ matrix.directory }}
+      run: zip -r game-${{ matrix.directory }}-${{ github.event.inputs.version }}.zip ${{ matrix.directory }}
 
     - name: Create release from artifacts
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "${{ matrix.directory }}-${{ github.event.inputs.version }}.zip"
+        artifacts: "game-${{ matrix.directory }}-${{ github.event.inputs.version }}.zip"
         tag: games-${{ github.event.inputs.version }}
         allowUpdates: true
