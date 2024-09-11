@@ -6,6 +6,9 @@ on:
       version:
         description: 'Version number'
         required: true
+      tag:
+        description: 'Release tag'
+        required: true
 
 jobs:
   package-games:
@@ -30,5 +33,5 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "lang-${{ matrix.directory }}.zip"
-        tag: langs-${{ github.event.inputs.version }}
+        tag: ${{ github.event.inputs.tag }}
         allowUpdates: true
