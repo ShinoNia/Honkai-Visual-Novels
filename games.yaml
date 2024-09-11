@@ -1,0 +1,16 @@
+games:
+- background: duriduri/bg.png
+  default_lang: 0
+  langs:
+  - xml/en-US/
+  - xml/ko-KR/
+  name: Durandal
+  path: duriduri
+- background: ae/bg.jpg
+  default_lang: 0
+  langs:
+  - xml/en-US/
+  - xml/ko-KR/
+  name: Anti-Entropy
+  path: ae
+version: 0.0
