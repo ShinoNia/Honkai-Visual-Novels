@@ -27,11 +27,11 @@ jobs:
       run: sudo apt-get install zip -y
 
     - name: Create ZIP file from directory
-      run: zip -r lang-${{ matrix.directory }}.zip ${{ matrix.directory }}/xml/
+      run: zip -r lang-${{ matrix.directory }}-${{ github.event.inputs.version }}.zip ${{ matrix.directory }}/xml/
 
     - name: Upload release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "lang-${{ matrix.directory }}.zip"
+        artifacts: "lang-${{ matrix.directory }}-${{ github.event.inputs.version }}.zip.zip"
         tag: ${{ github.event.inputs.tag }}
         allowUpdates: true
