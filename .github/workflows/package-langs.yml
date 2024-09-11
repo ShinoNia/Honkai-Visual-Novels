@@ -27,7 +27,7 @@ jobs:
       run: sudo apt-get install zip -y
 
     - name: Create ZIP file from directory
-      run: zip -r lang-${{ matrix.directory }}.zip ${{ matrix.directory }}
+      run: zip -r lang-${{ matrix.directory }}.zip ${{ matrix.directory }}/xml/
 
     - name: Upload release
       uses: ncipollo/release-action@v1
