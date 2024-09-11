@@ -24,18 +24,11 @@ jobs:
       run: sudo apt-get install zip -y
 
     - name: Create ZIP file from directory
-      run: for i in ${{ matrix.directory }}/xml/*; do   zip -r ${{ matrix.directory }}-"$(basename "$i")-${{ github.event.inputs.version }}.zip" "$i"; done
+      run: zip -r lang-${{ matrix.directory }}.zip ${{ matrix.directory }}
 
-    - name: English release
+    - name: Upload release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "${{ matrix.directory }}-en-US-${{ github.event.inputs.version }}.zip"
-        tag: langs-${{ github.event.inputs.version }}
-        allowUpdates: true
-
-    - name: Korean release
-      uses: ncipollo/release-action@v1
-      with:
-        artifacts: "${{ matrix.directory }}-ko-KR-${{ github.event.inputs.version }}.zip"
+        artifacts: "lang-${{ matrix.directory }}.zip"
         tag: langs-${{ github.event.inputs.version }}
         allowUpdates: true
