@@ -26,13 +26,6 @@ jobs:
     - name: Create ZIP file from directory
       run: zip -r ${{ matrix.directory }}-${{ github.event.inputs.version }}.zip ${{ matrix.directory }}
 
-    - name: Upload ZIP file as artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ matrix.directory }}-${{ github.event.inputs.version }}
-        path: ${{ matrix.directory }}-${{ github.event.inputs.version }}.zip
-        overwrite: true
-
     - name: Create release from artifacts
       uses: ncipollo/release-action@v1
       with:
