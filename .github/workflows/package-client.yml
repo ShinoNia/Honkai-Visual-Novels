@@ -28,8 +28,12 @@ jobs:
     - name: Compile app
       run: |
         pyinstaller -w client.py
-    - name: Archive build artifacts
+    - name: Archive build artifacts (Linux)
+      if: runner.os == 'Linux'
       run: zip -r ${{ matrix.platform }}-build.zip dist/
+    - name: Archive build artifacts (Windows)
+      if: runner.os == 'Windows'
+      run: powershell Compress-Archive -Path dist\* -DestinationPath ${{ matrix.platform }}-build.zip
     - name: Create release from artifacts
       uses: ncipollo/release-action@v1
       with:
