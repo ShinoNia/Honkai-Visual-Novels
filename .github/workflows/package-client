@@ -1,0 +1,36 @@
+name: Compile client
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag'
+        required: true
+
+
+jobs:
+  build:
+
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install webview[qt]
+        pip install pyinstaller
+    - name: Compile app
+      run: |
+        pyinstaller -w client.py
+    - name: Archive build artifacts
+      run: zip -r ${{ matrix.platform }}-build.zip dist/
+    - name: Create release from artifacts
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "${{ matrix.directory }}-build.zip"
+        tag: ${{ github.event.inputs.tag }}
+        allowUpdates: true
