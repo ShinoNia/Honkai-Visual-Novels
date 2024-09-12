@@ -32,6 +32,6 @@ jobs:
     - name: Upload release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "lang-${{ matrix.directory }}-${{ github.event.inputs.version }}.zip.zip"
+        artifacts: "lang-${{ matrix.directory }}-${{ github.event.inputs.version }}.zip"
         tag: ${{ github.event.inputs.tag }}
         allowUpdates: true
