@@ -1,5 +1,4 @@
 PyYAML
 Pillow
-webview
 requests
 pySmartDL
