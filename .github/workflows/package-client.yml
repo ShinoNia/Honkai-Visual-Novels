@@ -31,6 +31,6 @@ jobs:
     - name: Create release from artifacts
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "${{ matrix.directory }}-build.zip"
+        artifacts: "${{ matrix.platform }}-build.zip"
         tag: ${{ github.event.inputs.tag }}
         allowUpdates: true
