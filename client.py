@@ -12,10 +12,12 @@ from pySmartDL import SmartDL
 import zipfile
 import os
 
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname)
-
+#https://stackoverflow.com/a/42615559
+if getattr(sys, 'frozen', False):
+    application_path = os.path.dirname(sys.executable)
+elif __file__:
+    application_path = os.path.dirname(__file__)
+os.chdir(application_path)
 def load_yaml(default, file):
     if not os.path.exists(file):
         print('File not found. Using default configuration.')
@@ -39,7 +41,7 @@ default_config = {
     'width': 0,
     'height': 0,
     'port': 56800,
-    'run_in_browser': True,
+    'run_in_browser': False,
     'update_link': 'https://github.com/ShinoNia/Honkai-Visual-Novels',
     'update_repo_author': 'ShinoNia',
     'update_repo_name': 'Honkai-Visual-Novels',
@@ -143,7 +145,7 @@ def launch_game():
     if config['run_in_browser']: 
         webbrowser.open(url, new=config['browser_mode'], autoraise=True)
     else:
-        webview.create_window(title=games[selected_game]['name'], url=url, width=int(width_var.get()), height=int(height_var.get()), frameless=config['frameless'], resizable=config['resizable'], fullscreen=config['fullscreen'])
+        webview.create_window(title=games[selected_game]['name'], url=url, width=int(width_var.get()), height=int(height_var.get()), frameless=config['frameless'], resizable=config['resizable'], fullscreen=config['fullscreen'], private_mode=False)
         webview.start()
 
 
