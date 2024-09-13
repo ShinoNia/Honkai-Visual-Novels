@@ -11,6 +11,7 @@ import base64
 from pySmartDL import SmartDL
 import zipfile
 import os
+import sys
 
 #https://stackoverflow.com/a/42615559
 if getattr(sys, 'frozen', False):
@@ -180,6 +181,12 @@ def load_lang(selected_game):
     global langs, lang_dropdown
 
     langs = games[selected_game]['langs']
+    base_path = f"{games[selected_game]['path']}/xml"
+    for directory in os.listdir(base_path):
+        full_path = os.path.join(base_path, directory)
+        if os.path.isdir(full_path):
+            if fix(f'xml/{directory}') not in langs:
+                langs.append(f'xml/{directory}')
     selected_lang.set(langs[games[selected_game]['default_lang']])
     
     #https://stackoverflow.com/questions/17580218/changing-the-options-of-a-optionmenu-when-clicking-a-button
