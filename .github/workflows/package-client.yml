@@ -30,7 +30,7 @@ jobs:
         pip install pyinstaller
     - name: Compile app
       run: |
-        pyinstaller -F -w client.py
+        pyinstaller -F -w --hidden-import=PIL --hidden-import=PIL._imagingtk --hidden-import=PIL._tkinter_finder client.py
     - name: Archive build artifacts (Linux)
       if: runner.os == 'Linux'
       run: zip -r ${{ matrix.platform }}-build.zip dist/
