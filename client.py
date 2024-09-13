@@ -146,8 +146,8 @@ def launch_game():
     if config['run_in_browser']: 
         webbrowser.open(url, new=config['browser_mode'], autoraise=True)
     else:
-        webview.create_window(title=games[selected_game]['name'], url=url, width=int(width_var.get()), height=int(height_var.get()), frameless=config['frameless'], resizable=config['resizable'], fullscreen=config['fullscreen'], private_mode=False)
-        webview.start()
+        webview.create_window(title=games[selected_game]['name'], url=url, width=int(width_var.get()), height=int(height_var.get()), frameless=config['frameless'], resizable=config['resizable'], fullscreen=config['fullscreen'])
+        webview.start(private_mode=False)
 
 
 def download_game(*args):
